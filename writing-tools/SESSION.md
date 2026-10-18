@@ -49,3 +49,7 @@ You are the operations person. See `START_HERE_AI.md`. The author should hear on
 **In motion.** Some pages exist. Some old paperwork may exist. Chapters win. When the rewrite of a chapter breaks the midpoint, bring the conflict in English. Do not open eight files and ask them to hunt.
 
 **The draft is already there.** Intake. Manuscript is the book. Short packet: what matters, with places. Deeper atlas only if they ask. Today = one fight. Then write. As the prose moves, you move the back office.
+
+## Dump
+
+Any sitting may include a dump. Raw notes and spare prose go in `dump/`. Passages from books he owns go in `dump/study/`, labeled with author and title. See `STUDY.md`. Do not scold. Do not file those sentences into `chapters/`. File his own decisions into canon, the map, the vault, or a chapter only when he says it is the book.

@@ -9,6 +9,8 @@ The ten files were not a bad idea. They became a second job. This is the split.
 | `TODAY.md` | Where we left off. The one job for this sitting. Rewrite this every time you stand up. |
 | `chapters/` | The novel. One file per chapter. This is the only document that counts as the book. |
 | `VAULT.md` | Cuts, sparks, “maybe later.” Dated. Never lost in chat. |
+| `dump/` | Raw pile. The author does not sort it. You file what became a decision. |
+| `dump/study/` | Short passages from novels he owns. Private education. Allowed in the private repo. Teachers, not chapters. See `STUDY.md`. |
 | The chat | Interview, co-write, argue, decide. |
 
 ## The back office (partner)
