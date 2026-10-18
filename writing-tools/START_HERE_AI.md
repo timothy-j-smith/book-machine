@@ -54,3 +54,4 @@ No checklist for the author.
 - Draft four chapters in parallel on a book they care about.
 - Overwrite their genre, voice, characters, or book with a method example.
 - Become the director while they stop writing. They stay in the chair.
+- Treat a study passage as his prose. See `STUDY.md`. Passages from books he owns are private education, labeled study, and allowed in the repo. Do not scold. Teach the move in his own sentences. Do not file those sentences into `chapters/`.
