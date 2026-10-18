@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The desk — Book Machine</title>
+  <style>
+    :root {
+      --ink: #1c1730;
+      --muted: #5c5670;
+      --paper: #f7f4ee;
+      --card: #fffdf8;
+      --line: #d9d2c3;
+      --accent: #3a2a80;
+      --accent-soft: #ece8f8;
+      --good: #2d5a3d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    .wrap { max-width: 40rem; margin: 0 auto; padding: 2.2rem 1.4rem 4rem; }
+    h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.35rem; }
+    p.lede { color: var(--muted); margin: 0 0 1.4rem; }
+    h2 { font-size: 1.15rem; color: var(--accent); margin: 1.8rem 0 0.7rem; }
+    .rule {
+      background: var(--accent);
+      color: #fff;
+      padding: 1rem 1.15rem;
+      border-radius: 8px;
+      margin-bottom: 1.2rem;
+    }
+    .rule strong {
+      display: block;
+      font-size: 0.72rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      opacity: 0.8;
+      margin-bottom: 0.3rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 1rem 1.1rem;
+      margin: 0.7rem 0;
+    }
+    .today {
+      white-space: pre-wrap;
+      font-size: 0.98rem;
+      color: var(--ink);
+      margin: 0.5rem 0 0.8rem;
+    }
+    .meta { color: var(--muted); font-size: 0.92rem; margin: 0 0 0.6rem; }
+    .say {
+      background: var(--accent-soft);
+      border-radius: 6px;
+      padding: 0.55rem 0.75rem;
+      font-size: 0.98rem;
+      margin: 0.6rem 0 0.9rem;
+    }
+    label { display: block; font-size: 0.95rem; margin-bottom: 0.35rem; }
+    input[type="text"] {
+      width: 100%;
+      font: inherit;
+      padding: 0.55rem 0.7rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      margin-bottom: 0.7rem;
+    }
+    button, .linkish {
+      font: inherit;
+      cursor: pointer;
+      border-radius: 6px;
+      border: 0;
+    }
+    button.primary {
+      background: var(--accent);
+      color: #fff;
+      padding: 0.55rem 1rem;
+    }
+    button.ghost, a.ghost {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 0.5rem 0.9rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+    .err { color: #8b2e2e; margin: 0.4rem 0 0; }
+    .ok { color: var(--good); margin: 0.4rem 0 0; }
+    footer { margin-top: 2.4rem; color: var(--muted); font-size: 0.9rem; }
+    footer a { color: var(--accent); }
+    .empty { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Sit down.</h1>
+    <p class="lede">This is the desk. Not the filing cabinet. Pick a book, or start one. Cursor opens the chair. You talk in the chat.</p>
+
+    <div class="rule" id="continue-box">
+      <strong>Continue</strong>
+      <div id="continue-body">Looking for where you left off…</div>
+    </div>
+
+    <h2>Start a novel</h2>
+    <div class="card">
+      <form id="new-form">
+        <label for="title">Title</label>
+        <input id="title" type="text" autocomplete="off" placeholder="Father of Mine">
+        <div class="row">
+          <button class="primary" type="submit">Create and sit down</button>
+        </div>
+        <p class="meta">That photocopies the blank book, names it, and opens the method beside this novel. Then say <em>Interview me.</em></p>
+        <p class="err" id="new-err" hidden></p>
+      </form>
+    </div>
+
+    <h2>Your books</h2>
+    <div id="shelf" class="empty">Loading…</div>
+
+    <footer>
+      Plumbing stays hidden. <a href="/how">How this works</a>
+      · Leave the Terminal window running while this page is open.
+    </footer>
+  </div>
+  <script>
+    const $ = (id) => document.getElementById(id);
+
+    function esc(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function kindLabel(kind) {
+      if (kind === "new") return "Nothing written yet";
+      return "In motion";
+    }
+
+    async function sit(slug) {
+      const res = await fetch("/api/novels/" + encodeURIComponent(slug) + "/sit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: "{}",
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({ error: "could not open" }));
+        throw new Error(data.error || "could not open");
+      }
+    }
+
+    function bookCard(book, { continue: isContinue } = {}) {
+      const chapters = book.chapters === 1 ? "1 chapter" : book.chapters + " chapters";
+      const today = book.today ? '<div class="today">' + esc(book.today) + "</div>" : "";
+      return (
+        '<div class="card">' +
+        "<h3 style=\"margin:0 0 0.35rem\">" + esc(book.title) + "</h3>" +
+        '<p class="meta">' + kindLabel(book.kind) + " · " + chapters + "</p>" +
+        today +
+        '<div class="say">In Cursor chat, say: <em>' + esc(book.say) + "</em></div>" +
+        '<div class="row">' +
+        '<button class="primary sit" data-slug="' + esc(book.slug) + '" type="button">' +
+        (isContinue ? "Continue here" : "Sit down") +
+        "</button>" +
+        "</div></div>"
+      );
+    }
+
+    async function load() {
+      const res = await fetch("/api/desk");
+      const data = await res.json();
+      const cont = $("continue-body");
+      if (!data.continue) {
+        cont.innerHTML = "No books on the shelf yet. Name one below.";
+      } else {
+        cont.innerHTML =
+          "Last touched: <strong>" + esc(data.continue.title) + "</strong>" +
+          bookCard(data.continue, { continue: true });
+      }
+      const shelf = $("shelf");
+      if (!data.novels.length) {
+        shelf.innerHTML = '<p class="empty">The shelf is empty. That is all right.</p>';
+        return;
+      }
+      shelf.innerHTML = data.novels.map((book) => bookCard(book)).join("");
+    }
+
+    document.addEventListener("click", async (event) => {
+      const btn = event.target.closest("button.sit");
+      if (!btn) return;
+      btn.disabled = true;
+      try {
+        await sit(btn.dataset.slug);
+      } catch (err) {
+        alert(err.message);
+      }
+      btn.disabled = false;
+    });
+
+    $("new-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const err = $("new-err");
+      err.hidden = true;
+      const title = $("title").value.trim();
+      if (!title) {
+        err.textContent = "Give it a title.";
+        err.hidden = false;
+        return;
+      }
+      const btn = event.target.querySelector("button");
+      btn.disabled = true;
+      try {
+        const res = await fetch("/api/novels", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ title: title, sit: true }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "could not create");
+        $("title").value = "";
+        await load();
+      } catch (ex) {
+        err.textContent = ex.message;
+        err.hidden = false;
+      }
+      btn.disabled = false;
+    });
+
+    load().catch(() => {
+      $("continue-body").textContent = "The desk server is not running. Use open-the-desk.sh";
+    });
+  </script>
+</body>
+</html>

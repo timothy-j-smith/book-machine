@@ -1,0 +1,4 @@
+.DS_Store
+.cursor/rules/openmemory.mdc
+__pycache__/
+*.pyc

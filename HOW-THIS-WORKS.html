@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Book Machine — How This Works</title>
+  <style>
+    :root {
+      --ink: #1c1730;
+      --muted: #5c5670;
+      --paper: #f7f4ee;
+      --card: #fffdf8;
+      --line: #d9d2c3;
+      --accent: #3a2a80;
+      --accent-soft: #ece8f8;
+      --good: #2d5a3d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    .wrap { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.4rem 4rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.4rem; }
+    h2 { font-size: 1.25rem; margin: 2.2rem 0 0.7rem; color: var(--accent); }
+    h3 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; }
+    p.lede { color: var(--muted); font-size: 1.05rem; margin-top: 0; }
+    ol.outline, ol.outline ol { padding-left: 1.3rem; }
+    ol.outline > li { margin: 0.45rem 0; }
+    ol.outline ol { margin: 0.35rem 0 0.6rem; }
+    .rule {
+      background: var(--accent);
+      color: #fff;
+      padding: 1rem 1.2rem;
+      border-radius: 8px;
+      font-size: 1.15rem;
+    }
+    .rule strong { display: block; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.8; margin-bottom: 0.35rem; }
+    .cards { display: grid; gap: 0.8rem; margin: 1rem 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+    }
+    .card b { color: var(--accent); }
+    .flow {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 1rem 0.6rem;
+      margin: 1rem 0;
+    }
+    .step {
+      text-align: center;
+      padding: 0.55rem 0.8rem;
+      background: var(--accent-soft);
+      border-radius: 6px;
+      font-size: 0.98rem;
+    }
+    .arrow { text-align: center; color: var(--accent); font-size: 1.1rem; line-height: 1.2; padding: 0.15rem 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+    th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 0.45rem 0.3rem; vertical-align: top; }
+    th { color: var(--accent); font-weight: 600; }
+    .note { color: var(--muted); font-size: 0.95rem; }
+    .never { border-left: 4px solid #8b2e2e; padding-left: 0.85rem; }
+    .ok { border-left: 4px solid var(--good); padding-left: 0.85rem; }
+    code { font-family: ui-monospace, Menlo, monospace; font-size: 0.86em; background: var(--accent-soft); padding: 0.05em 0.3em; border-radius: 3px; }
+    footer { margin-top: 2.5rem; color: var(--muted); font-size: 0.9rem; }
+    @media print {
+      body { background: #fff; }
+      .rule { break-inside: avoid; }
+      .flow, .card { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>The Book Machine</h1>
+    <p class="lede">How this works. September 7, 2026. One writing system. Stop inventing a new one every few months.</p>
+    <div class="card">
+      <b>Where you operate:</b> not the file tree. Run <code>~/Writing/book-machine/scripts/open-the-desk.sh</code>.
+      A page opens — Continue, start a novel, your books. That is the desk. Cursor is the chair. This page is the map.
+    </div>
+
+    <div class="rule">
+      <strong>The one-sentence rule</strong>
+      You have one writing system. You sit with one novel folder at a time. Everything else is an attic. You may visit an attic. You do not write new pages there.
+    </div>
+
+    <h2>1. The three pieces (this is the whole machine)</h2>
+    <p>“Template” was the old word. It sounded like you should customize a new system for every book. You should not.</p>
+    <div class="cards">
+      <div class="card"><b>1. The method</b> — <code>writing-tools/</code><br>How we interview, sit down, and file. Already exists. Opened beside a novel. Never copied into a novel.</div>
+      <div class="card"><b>2. The blank book</b> — <code>blank-book/</code><br>Master blank with the tabs already there and no story. Locked. Do not write in it. Do not open it. Copied and named — that copy is the book.</div>
+      <div class="card"><b>3. The novel</b> — <code>novels/the-title/</code><br>Today, chapters, vault, back office. This is the only folder you live in for that story.</div>
+    </div>
+    <p class="note">You do not make a fourth piece. You do not build a new workspace system for each book.</p>
+    <div class="card">
+      <b>When we change the machine later (not yet):</b><br>
+      A change to <code>writing-tools</code> is live for every novel the next time you sit down. A change to the blank book only affects novels created <em>after</em> that. If a new tab or default should travel with new books, update both (unlock, edit, lock). Write and test first. Do not redesign in the same week you are trying to draft.
+    </div>
+
+    <h2>1A. Folders vs a workspace</h2>
+    <p>A <b>folder</b> is a box on the disk. The three pieces above are folders.</p>
+    <p>A <b>workspace</b> is a small file named <code>OPEN-ME.code-workspace</code>. It is a seat assignment. It tells Cursor: show me these folders in one window.</p>
+    <p>Those three folders are <b>not</b> three workspaces. You do not glue three workspaces together.</p>
+    <div class="card">
+      <b>When you write, you open one workspace file.</b> It is multi-root. It holds <em>two</em> folders:<br><br>
+      1. The method (<code>writing-tools/</code>) — the same folder every time. Not copied. Not a new workspace.<br>
+      2. <em>This</em> novel (<code>novels/the-title/</code>) — whichever book you opened.
+    </div>
+    <div class="flow">
+      <div class="step">ONE window = ONE <code>OPEN-ME.code-workspace</code></div>
+      <div class="arrow">↓</div>
+      <div class="step">folder: <code>writing-tools</code> (always the same)</div>
+      <div class="arrow">+</div>
+      <div class="step">folder: <code>novels/the-title</code> (this book only)</div>
+    </div>
+    <p>The blank book is never a workspace. It is locked. Twenty ideas means twenty folders on the shelf — not twenty writing systems, and not all twenty open at once. The script or the partner writes the OPEN-ME file. You double-click it.</p>
+    <ol class="outline">
+      <li><b>Factory</b> — <code>book-machine/OPEN-ME</code> — method + the whole novels shelf. Start a book, see what exists.</li>
+      <li><b>Tuesday desk</b> — <code>novels/the-title/OPEN-ME</code> — method + one book.</li>
+    </ol>
+
+    <h2>2. Who does what</h2>
+    <h3>2.1 Already exists — do not recreate</h3>
+    <ol class="outline">
+      <li><code>~/Writing/book-machine/</code> — the factory</li>
+      <li><code>writing-tools/</code> — the method</li>
+      <li><code>blank-book/</code> — the blank book (locked master)</li>
+      <li><code>novels/</code> — the shelf</li>
+      <li><code>scripts/new-novel.sh</code> — the photocopier</li>
+    </ol>
+    <h3>2.2 You manage</h3>
+    <ol class="outline">
+      <li>Open the right desk — that novel’s <code>OPEN-ME.code-workspace</code></li>
+      <li>Talk and write</li>
+      <li>Say the plain sentences: <em>Vault this.</em> <em>I’m done for today.</em> <em>Continuing [title].</em></li>
+      <li>Leave attics alone once they are snapshotted</li>
+    </ol>
+    <p class="ok">You do not patrol the back office. You do not rebuild ten documents before you are allowed to write.</p>
+    <h3>2.3 The partner or the script creates</h3>
+    <ol class="outline">
+      <li>A new novel folder (named copy of the blank book)</li>
+      <li>That novel’s <code>OPEN-ME.code-workspace</code></li>
+      <li>Interview notes, thin canon, thin map, and <code>TODAY.md</code></li>
+      <li>Chapter files when you write</li>
+      <li>Vault, story state, session notes, and a new Today when you stand up</li>
+    </ol>
+    <p class="note">No Terminal? Say: <em>New novel. Interview me. Title: _____</em></p>
+
+    <h2>3. If you start something new</h2>
+    <div class="flow">
+      <div class="step">You have an idea</div>
+      <div class="arrow">↓</div>
+      <div class="step">“New novel. Interview me.”<br><span class="note">or run the new-novel script with the title</span></div>
+      <div class="arrow">↓</div>
+      <div class="step">Blank book is copied → <code>novels/the-title/</code></div>
+      <div class="arrow">↓</div>
+      <div class="step">Open <strong>that</strong> book’s OPEN-ME<br><span class="note">The method &nbsp;|&nbsp; This novel</span></div>
+      <div class="arrow">↓</div>
+      <div class="step">Partner interviews you — one question at a time</div>
+      <div class="arrow">↓</div>
+      <div class="step">Partner files the talk. You write when you can see a scene.</div>
+      <div class="arrow">↓</div>
+      <div class="step">You stand up. Partner rewrites Today.</div>
+      <div class="arrow">↓</div>
+      <div class="step">Next sitting: same workspace. Read Today. Continue.</div>
+    </div>
+
+    <h2>4. The three sittings (same folders, different first hour)</h2>
+    <p>The folders do not change. What you say first changes.</p>
+
+    <h3>4.1 Starting new — nothing written</h3>
+    <ol class="outline">
+      <li>Create the novel folder (script or partner).</li>
+      <li>Open that book’s OPEN-ME.</li>
+      <li>Say <em>Interview me.</em></li>
+      <li>Talk. Messy is fine.</li>
+      <li>Write when you can see a scene. Do not wait for ten documents to be “done.”</li>
+      <li>Partner keeps the back office.</li>
+    </ol>
+
+    <h3>4.2 In motion — chapter 2, 3, or 4</h3>
+    <p>You already have a novel folder. You do not create a new one.</p>
+    <ol class="outline">
+      <li>Open <strong>that same</strong> OPEN-ME.</li>
+      <li>Read <code>TODAY.md</code>.</li>
+      <li>Say <em>Continuing [title].</em></li>
+      <li>Talk, write, or look.</li>
+      <li>Partner updates only what the story moved.</li>
+      <li>A week away is not starting over. Today is the memory.</li>
+    </ol>
+    <p class="note">If the book still lives in an attic, copy it into <code>novels/the-title/</code> first. Leave the attic untouched. Then the list above.</p>
+
+    <h3>4.3 The draft exists — now you are editing</h3>
+    <p>Still the same novel folder. Still the same OPEN-ME.</p>
+    <ol class="outline">
+      <li>Open that book.</li>
+      <li>Say <em>This draft needs work. Intake it.</em></li>
+      <li>The pages are the book. You do not fill a hub to make the draft legal.</li>
+      <li>You get a short list of what matters, with places in the book.</li>
+      <li>Today becomes one fight.</li>
+      <li>You edit. Partner files the ripples.</li>
+    </ol>
+
+    <h2>5. What you open on a Tuesday</h2>
+    <ol class="outline">
+      <li><b>Write a book already in the machine</b> — that book’s <code>OPEN-ME.code-workspace</code></li>
+      <li><b>Start a new book</b> — factory <code>~/Writing/book-machine/OPEN-ME.code-workspace</code>, create the novel, then switch to <em>that</em> book’s OPEN-ME</li>
+      <li><b>Mine an attic</b> — this Desktop pile, or later Walk This Way, in a separate window. Copy out. Do not move in.</li>
+    </ol>
+    <p class="note">If the folder list looks like the old ten-file house, you are in an attic.</p>
+
+    <h2>6. What you say</h2>
+    <ol class="outline">
+      <li><em>New novel. Interview me. Title: _____</em></li>
+      <li><em>Continuing [title].</em></li>
+      <li><em>This draft needs work. Intake it.</em></li>
+      <li><em>Vault this.</em></li>
+      <li><em>Park that for book two.</em></li>
+      <li><em>I’m done for today.</em></li>
+    </ol>
+
+    <h2>7. Attics</h2>
+    <ol class="outline">
+      <li><b>This folder</b> — Cursor writing template on the Desktop. Father of Mine, Qitat, dumps. GitHub snapshot. Do not start novels in <code>writing-data/</code>.</li>
+      <li><b>Walk This Way’s workspace</b> — older, larger, a book <em>and</em> an earlier system. Same recipe later: snapshot, leave, bring the book into the machine. Do not build a second machine inside it.</li>
+      <li><b>Compass, HyperAgent, iCloud copies</b> — visit. Do not live there.</li>
+    </ol>
+    <p>When you let go of a large folder: copy the book out first. Keep the attic until the copy feels like the book.</p>
+
+    <h2>8. What you never do again</h2>
+    <div class="never">
+      <ol class="outline">
+        <li>Build a new writing system because the last one felt messy.</li>
+        <li>Write inside <code>blank-book/</code>.</li>
+        <li>Copy the method into the novel.</li>
+        <li>Keep ten documents in sync by hand.</li>
+        <li>Start a new novel inside an attic.</li>
+        <li>Open five old workspaces “just to be safe.”</li>
+      </ol>
+    </div>
+
+    <h2>9. If you get that lost feeling</h2>
+    <ol class="outline">
+      <li>You are not starting over.</li>
+      <li>Open <code>~/Writing/book-machine/</code> and this guide.</li>
+      <li>If the book is already under <code>novels/</code>, open that OPEN-ME and read Today.</li>
+      <li>If it is not, you are starting new — or bringing a book in from an attic.</li>
+      <li>Do not create a new system.</li>
+    </ol>
+
+    <h2>10. Paths on this Mac</h2>
+    <table>
+      <thead><tr><th>What</th><th>Where</th></tr></thead>
+      <tbody>
+        <tr><td>The machine</td><td><code>~/Writing/book-machine/</code></td></tr>
+        <tr><td>The method</td><td><code>~/Writing/book-machine/writing-tools/</code></td></tr>
+        <tr><td>The blank book</td><td><code>~/Writing/book-machine/blank-book/</code></td></tr>
+        <tr><td>Your books</td><td><code>~/Writing/book-machine/novels/</code></td></tr>
+        <tr><td>New-book script</td><td><code>~/Writing/book-machine/scripts/new-novel.sh "The Title"</code></td></tr>
+        <tr><td>This attic</td><td><code>~/Desktop/CURSOR-TEMPLATE-WRITING/</code></td></tr>
+        <tr><td>Walk This Way attic (Air)</td><td><code>~/Writing/Walk_This_Way-draft-3.1-complete/</code></td></tr>
+      </tbody>
+    </table>
+
+    <footer>
+      Matching Markdown: <code>BOOK-MACHINE-GUIDE.md</code>. Daily desk is next door, not in this archive.
+    </footer>
+  </div>
+</body>
+</html>

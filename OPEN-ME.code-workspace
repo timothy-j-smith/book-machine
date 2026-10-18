@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "The method",
+      "path": "writing-tools",
+    },
+    {
+      "name": "Your books",
+      "path": "novels",
+    },
+  ],
+  "settings": {
+    "editor.wordWrap": "on",
+  },
+}
