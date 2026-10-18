@@ -1,7 +1,8 @@
 # The Book Machine — How This Works
 
 **Date:** September 7, 2026  
-**Purpose:** One writing system. Stop inventing a new one every few months.
+**Purpose:** One writing system. Stop inventing a new one every few months.  
+**Updated:** October 18, 2026. Dump, study passages, and where the guides live.
 
 Read this when you feel lost. There is a matching page you can open in a browser: `BOOK-MACHINE-GUIDE.html`.
 
@@ -196,6 +197,19 @@ Still the same novel folder. Still the same `OPEN-ME`.
 5. `TODAY.md` becomes one fight (voice, or structure, or one character).
 6. You edit. Partner files the ripples.
 
+Adding chapters to a finished draft is sitting 6.2. Hating the prose is sitting 6.3 with one fight: the sentences.
+
+### 6.4 The dump — every sitting, one pile
+
+The dump is not a fourth way to write. It is how raw material arrives while you are starting, continuing, or rewriting.
+
+1. One dump per novel: `novels/the-title/dump/`.
+2. Throw in prose, notes, character scraps, half-outlines, and worries. You do not sort them.
+3. The partner files what became a decision: chapters only when you say it is the book, canon, story map, or the vault.
+4. Say *Dump this* with no interview and no new chapter when you only need the pile caught.
+
+`dump/study/` is for short passages from novels you own, print and electronic. Private education. The GitHub repo is private, so those snippets may live there and in an author folder. Label them with the author and the book. They are teachers. They are not your chapters. The partner does not scold, and does not paste those sentences into the manuscript.
+
 ---
 
 ## 7. What you open, every Tuesday
@@ -216,6 +230,8 @@ If the status bar or the folder list looks like the old ten-file house, you are 
 4. *Vault this.*
 5. *Park that for book two.*
 6. *I’m done for today.*
+7. *Dump this.*
+8. *This is study.* Name the author and the book.
 
 ---
 
@@ -253,6 +269,12 @@ Until that sitting, do not start rewriting Walk This Way in a brand-new invented
 | New-book script | `~/Writing/book-machine/scripts/new-novel.sh "The Title"` |
 | This attic | `~/Desktop/CURSOR-TEMPLATE-WRITING/` |
 | Walk This Way attic (Air copy) | `~/Writing/Walk_This_Way-draft-3.1-complete/` |
+| The machine on GitHub (private) | `https://github.com/timothy-j-smith/book-machine` |
+| This attic on GitHub (private) | `https://github.com/timothy-j-smith/cursor-writing-template` |
+| Friend’s interface photos | `~/Desktop/CURSOR-TEMPLATE-WRITING/friend-ui/` |
+| Open the first desk | `~/Writing/book-machine/scripts/open-the-desk.sh` |
+
+The browser desk is a first door: continue, start a book, list books. The website-like front end is not built yet. Her screenshots in `friend-ui/` are the reference for that face. The folders above stay the back end.
 
 ---
 
