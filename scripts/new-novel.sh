@@ -64,7 +64,8 @@ cat > "$DEST/OPEN-ME.code-workspace" <<EOF
     }
   ],
   "settings": {
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange"
   }
 }
 EOF

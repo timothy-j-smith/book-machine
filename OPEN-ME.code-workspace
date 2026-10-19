@@ -11,5 +11,6 @@
   ],
   "settings": {
     "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
   },
 }

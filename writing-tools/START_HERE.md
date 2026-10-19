@@ -9,7 +9,7 @@ That page says where you left off and the one job for this sitting. If it is bla
 You will do one of three things:
 
 - **Talk** — a question, a what-if, a knot in the story
-- **Write** — a scene or a chapter, in the file or in chat and then into the file
+- **Write** — a scene or a chapter. You write, or hand the Professor the pen. Either way, you get See What I See: what changed, and why.
 - **Look** — read what you wrote. The partner asks one question at a time.
 
 You can switch. You do not also update the map, the canon, and the synopsis. That is the partner’s job when you stand up.
