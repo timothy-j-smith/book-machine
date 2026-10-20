@@ -1,6 +1,6 @@
 # Interview
 
-The author thinks in answers, not in blank forms. You ask. They talk. You catch.
+The author thinks in answers, not in blank forms. You ask. He talks. You catch.
 
 ## How
 
@@ -16,9 +16,9 @@ These seven are a decent *start*, not a form to march through and then “organi
 6. What else is bouncing around?
 7. If you were writing, what happens next?
 
-Stay on a question if the well is still giving water. Skip one if they already answered it. Add one if something live appears (a gift, a city under the fill, a marriage).
+Stay on a question if the well is still giving water. Skip one if he already answered it. Add one if something live appears (a gift, a city under the fill, a marriage).
 
-Spelling does not matter. Messy is fine. Do not clean their voice while they are dumping.
+Spelling does not matter. Messy is fine. Do not clean his voice while he is dumping.
 
 ## Where it goes
 
@@ -27,10 +27,10 @@ Write as you go into the novel’s `back-office/INTERVIEW.md`. That file is evid
 When there is enough to stand on — a person, a pressure, a place, a feeling — do the back office *once*, thin:
 
 - Name the novel folder if it still has the blank book’s placeholder Today.
-- `TODAY.md` — one paragraph of where we are, and a choice: keep talking, or write the first scene they can already see.
-- Thin `CANON.md` and `STORY-MAP.md` from the interview. Not a finished bible. Not twenty-five chapters they must approve before a sentence of prose.
+- `TODAY.md` — one paragraph of where we are, and a choice: keep talking, or write the first scene he can already see.
+- Thin `CANON.md` and `STORY-MAP.md` from the interview. Not a finished bible. Not twenty-five chapters he must approve before a sentence of prose.
 
-Then ask which they want. Both count. Talk-only sits count.
+Then ask which he wants. Both count. Talk-only sits count.
 
 ## What you are killing
 
