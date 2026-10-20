@@ -44,6 +44,7 @@ If the pages and the paperwork disagree, **the chapters win** until the author s
 5. Rewrite `TODAY.md` for the next time they sit down.
 6. Write a short note in `back-office/SESSION-NOTES/` dated today, if anything worth keeping was said.
 7. Offer a stitch of `back-office/MANUSCRIPT.md` from confirmed chapters when that helps them read straight through.
+8. Commit and push to GitHub so the sitting is off the laptop. Say it in the report: “Pushed.” If the push fails, say that plainly and what it needs.
 
 No checklist for the author.
 
