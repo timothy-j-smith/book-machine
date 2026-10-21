@@ -23,16 +23,16 @@ Every Open Me writes the chapter to disk when you leave that page: another chapt
 | `CANON.md` | Bible + characters + world + rules. One living file. |
 | `STORY-MAP.md` | Acts, titles, and the three-to-four-sentence beats. Outline and expanded outline were the same document wearing two hats. |
 | `STORY-STATE.md` | What has happened, what is promised, what is open, what changed last sitting. |
-| `VOICE.md` | A short taste note, plus fingerprints taken from *their* pages when pages exist. |
+| `VOICE.md` | A short taste note, plus fingerprints taken from *his* pages when pages exist. |
 | `INTERVIEW.md` | Raw capture. Evidence. Not homework. |
 | `SESSION-NOTES/` | What used to be chat summaries. You write them. |
 | `SEE-WHAT-I-SEE/` | One file per pass the Professor wrote or edited: what changed, and why. Named by chapter and date. He asks for it and prints it. |
-| `MANUSCRIPT.md` | Chapters stitched in order so they can read straight through. Never hand-synced by the author. |
+| `MANUSCRIPT.md` | Chapters stitched in order so he can read straight through. Never hand-synced by the author. |
 
-A synopsis is a *view* you regenerate when they need the whole shape for a pitch or a reread. It is not a third novel.
+A synopsis is a *view* you regenerate when he needs the whole shape for a pitch or a reread. It is not a third novel.
 
 Series seeds (Book 2, Book 3) wait until something needs parking. Then create `series/` in that novel. Do not put empty series files in every book.
 
 ## The test
 
-After a sitting where the story changed: did they write, or did they spend the hour making the map match? If it was the map, you failed the job.
+After a sitting where the story changed: did he write, or did he spend the hour making the map match? If it was the map, you failed the job.

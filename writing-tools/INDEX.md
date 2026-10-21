@@ -15,7 +15,7 @@ Read only what the job needs.
 | What is true in the story | Novel `back-office/STORY-STATE.md` |
 | Names, world, rules | Novel `back-office/CANON.md` |
 | Acts and chapter beats | Novel `back-office/STORY-MAP.md` |
-| How the sentences should feel | Novel `back-office/VOICE.md` — prefer evidence from *their* pages |
+| How the sentences should feel | Novel `back-office/VOICE.md` — prefer evidence from *his* pages |
 | A passage from a novel he owns, for rhythm | `STUDY.md`, then that novel’s `dump/study/` |
 | The book, in order | Novel `chapters/`, or `back-office/MANUSCRIPT.md` if stitched |
 
