@@ -10,7 +10,8 @@ Read only what the job needs.
 | New novel, no pages yet | `INTERVIEW.md` |
 | Tuesday sitting (talk / write / look) | `SESSION.md` |
 | After a chapter exists | `SESSION.md` (Look) — one question at a time |
-| Who writes next, and showing why | `SESSION.md` (Who writes, See What I See) |
+| Who writes next, and showing why | `SESSION.md` (Who writes, See What I See, Leave the door open) |
+| What this person may know in this chapter | Novel `back-office/WHO-KNOWS.md` |
 | Cut line, spare scene, later spark | Novel `VAULT.md` |
 | What is true in the story | Novel `back-office/STORY-STATE.md` |
 | Names, world, rules | Novel `back-office/CANON.md` |

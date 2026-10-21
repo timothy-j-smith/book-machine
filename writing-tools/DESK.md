@@ -23,6 +23,7 @@ Every Open Me writes the chapter to disk when you leave that page: another chapt
 | `CANON.md` | Bible + characters + world + rules. One living file. |
 | `STORY-MAP.md` | Acts, titles, and the three-to-four-sentence beats. Outline and expanded outline were the same document wearing two hats. |
 | `STORY-STATE.md` | What has happened, what is promised, what is open, what changed last sitting. |
+| `WHO-KNOWS.md` | Which character knows which fact, as of which chapter. The partner keeps it after sittings. The Professor reads it before he takes the pen. Not a gate before Chapter 1. |
 | `VOICE.md` | A short taste note, plus fingerprints taken from *his* pages when pages exist. |
 | `INTERVIEW.md` | Raw capture. Evidence. Not homework. |
 | `SESSION-NOTES/` | What used to be chat summaries. You write them. |

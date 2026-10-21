@@ -18,6 +18,8 @@ These seven are a decent *start*, not a form to march through and then “organi
 
 Stay on a question if the well is still giving water. Skip one if he already answered it. Add one if something live appears (a gift, a city under the fill, a marriage).
 
+When a name appears, ask once: what should this name carry, and what should it not? Write the answer in canon. Do not lock names before a chapter exists.
+
 Spelling does not matter. Messy is fine. Do not clean his voice while he is dumping.
 
 ## Where it goes
@@ -29,6 +31,7 @@ When there is enough to stand on — a person, a pressure, a place, a feeling �
 - Name the novel folder if it still has the blank book’s placeholder Today.
 - `TODAY.md` — one paragraph of where we are, and a choice: keep talking, or write the first scene he can already see.
 - Thin `CANON.md` and `STORY-MAP.md` from the interview. Not a finished bible. Not twenty-five chapters he must approve before a sentence of prose.
+- Ask which master sits as the lead Professor for this book — ghostwriter, teacher, and the one who invites another master when the subject or the prose needs it.
 
 Then ask which he wants. Both count. Talk-only sits count.
 
