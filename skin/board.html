@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The board — Book Machine</title>
+  <style>
+    :root {
+      --ink: #1c1730;
+      --muted: #5c5670;
+      --paper: #f7f4ee;
+      --card: #fffdf8;
+      --line: #d9d2c3;
+      --accent: #3a2a80;
+      --accent-soft: #ece8f8;
+      --good: #2d5a3d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    .wrap { max-width: 78rem; margin: 0 auto; padding: 1.8rem 1.4rem 5rem; }
+    a { color: var(--accent); }
+    .top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 1rem; }
+    h1 { font-size: 2rem; line-height: 1.15; margin: 0.3rem 0 0.3rem; }
+    p.lede { color: var(--muted); margin: 0; max-width: 44rem; }
+    .bar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+      padding: 0.7rem 0;
+      margin: 1.2rem 0 1.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      align-items: center;
+    }
+    button {
+      font: inherit;
+      cursor: pointer;
+      border-radius: 6px;
+      border: 0;
+    }
+    button.primary { background: var(--accent); color: #fff; padding: 0.55rem 1.1rem; }
+    button.primary:disabled { opacity: 0.45; cursor: default; }
+    button.ghost {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 0.4rem 0.8rem;
+      font-size: 0.95rem;
+    }
+    #state { font-size: 1rem; }
+    #state.dirty { font-weight: bold; }
+    .err { color: #8b2e2e; }
+
+    .shape {
+      display: flex;
+      align-items: flex-end;
+      gap: 0.6rem;
+      height: 10rem;
+      padding: 0.6rem 0.2rem 0;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 0.4rem;
+    }
+    .shape .col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+    .shape .num { font-weight: bold; font-size: 1rem; }
+    .shape .pillar { width: 70%; max-width: 4rem; background: var(--accent); border-radius: 4px 4px 0 0; }
+    .shape .pillar.unset { background: transparent; border: 1px dashed var(--muted); border-bottom: 0; height: 0.6rem; }
+    .shape-names { display: flex; gap: 0.6rem; padding: 0 0.2rem; }
+    .shape-names div { flex: 1; text-align: center; font-size: 0.9rem; color: var(--muted); }
+    .shape-label { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.3rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+      gap: 1rem;
+      margin-top: 1.6rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 1rem 1.1rem 1.1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+    }
+    .card.changed { border: 2px solid var(--accent); }
+    .eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+    .card h2 { margin: 0; font-size: 1.5rem; }
+    .opening { font-style: italic; color: var(--muted); font-size: 0.95rem; margin: 0; }
+    label { display: block; font-size: 0.9rem; color: var(--muted); margin-bottom: 0.15rem; }
+    textarea, input[type="text"], select {
+      width: 100%;
+      font: inherit;
+      font-size: 1rem;
+      padding: 0.45rem 0.6rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+    }
+    textarea { min-height: 5.2rem; resize: vertical; }
+    .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+    .changed-note { font-size: 0.85rem; font-weight: bold; color: var(--accent); }
+    footer { margin-top: 2.4rem; color: var(--muted); font-size: 0.95rem; max-width: 44rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a href="/">← Back to the desk</a>
+        <h1 id="book-title">The board</h1>
+        <p class="lede">One card per chapter. Titles, word counts and opening lines come from the chapter files. Everything you type here is saved into the story map, the same file the Professor reads in Cursor.</p>
+      </div>
+    </div>
+
+    <div class="bar">
+      <button class="primary" id="save" type="button" disabled>Save to the story map</button>
+      <span id="state">Loading…</span>
+    </div>
+
+    <p class="shape-label">The shape of the book, by tension. A dashed stub means not set yet.</p>
+    <div class="shape" id="shape"></div>
+    <div class="shape-names" id="shape-names"></div>
+
+    <div class="grid" id="grid"></div>
+
+    <footer>
+      The book itself is the chapter files. To change a title or a sentence, open the chapter in Cursor. This board only holds your notes about each chapter. When the Professor updates the story map in Cursor, reload this page to see it.
+    </footer>
+  </div>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const slug = decodeURIComponent(location.pathname.split("/").pop());
+    let board = null;
+    let dirty = new Set();
+
+    function esc(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function setState(text, kind) {
+      const el = $("state");
+      el.textContent = text;
+      el.className = kind || "";
+    }
+
+    function words(n) {
+      return n === 1 ? "1 word" : n.toLocaleString() + " words";
+    }
+
+    function drawShape() {
+      const cards = board.cards;
+      $("shape").innerHTML = cards.map((c) => {
+        const t = parseInt(c.tension, 10);
+        if (!t) {
+          return '<div class="col"><span class="num">—</span><div class="pillar unset"></div></div>';
+        }
+        return '<div class="col"><span class="num">' + t + '</span><div class="pillar" style="height:' + (t * 9) + '%"></div></div>';
+      }).join("");
+      $("shape-names").innerHTML = cards.map((c) => "<div>" + c.number + ". " + esc(c.title) + "</div>").join("");
+    }
+
+    function statusOptions(current) {
+      return board.statuses.map((s) =>
+        '<option value="' + esc(s) + '"' + (s === current ? " selected" : "") + ">" + (s ? esc(s) : "Not marked") + "</option>"
+      ).join("");
+    }
+
+    function tensionOptions(current) {
+      let html = '<option value=""' + (current ? "" : " selected") + ">Not set</option>";
+      for (let i = 1; i <= 10; i++) {
+        html += '<option value="' + i + '"' + (String(i) === String(current) ? " selected" : "") + ">" + i + "</option>";
+      }
+      return html;
+    }
+
+    function cardHtml(c, i) {
+      return (
+        '<div class="card" data-i="' + i + '">' +
+          '<div class="eyebrow"><span>Chapter ' + c.number + '</span><span>' + words(c.words) + "</span></div>" +
+          "<h2>" + esc(c.title) + "</h2>" +
+          (c.opening ? '<p class="opening">' + esc(c.opening) + "</p>" : "") +
+          '<div><label>What this chapter does</label><textarea data-k="does">' + esc(c.does) + "</textarea></div>" +
+          '<div class="pair">' +
+            '<div><label>Whose eyes</label><input type="text" data-k="eyes" value="' + esc(c.eyes) + '"></div>' +
+            '<div><label>Where</label><input type="text" data-k="where" value="' + esc(c.where) + '"></div>' +
+          "</div>" +
+          '<div class="pair">' +
+            '<div><label>Tension, 1 to 10</label><select data-k="tension">' + tensionOptions(c.tension) + "</select></div>" +
+            '<div><label>Where it stands</label><select data-k="status">' + statusOptions(c.status) + "</select></div>" +
+          "</div>" +
+          '<div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem">' +
+            '<button class="ghost open" type="button" data-file="' + esc(c.file) + '">Open in Cursor</button>' +
+            '<span class="changed-note" hidden>Changed, not saved</span>' +
+          "</div>" +
+        "</div>"
+      );
+    }
+
+    function draw() {
+      $("book-title").textContent = board.title + " — the board";
+      document.title = board.title + " — the board";
+      drawShape();
+      $("grid").innerHTML = board.cards.length
+        ? board.cards.map(cardHtml).join("")
+        : "<p>No chapter files yet. When the first chapter exists, its card appears here.</p>";
+    }
+
+    function markDirty() {
+      $("save").disabled = dirty.size === 0;
+      document.querySelectorAll(".card").forEach((el) => {
+        const on = dirty.has(Number(el.dataset.i));
+        el.classList.toggle("changed", on);
+        el.querySelector(".changed-note").hidden = !on;
+      });
+      if (dirty.size) {
+        setState(dirty.size === 1 ? "1 card changed. Not saved yet." : dirty.size + " cards changed. Not saved yet.", "dirty");
+      }
+    }
+
+    async function load() {
+      const res = await fetch("/api/novels/" + encodeURIComponent(slug) + "/board");
+      if (!res.ok) throw new Error("That book is not on the shelf.");
+      board = await res.json();
+      dirty = new Set();
+      draw();
+      markDirty();
+      setState("Everything matches the story map.");
+    }
+
+    async function save() {
+      $("save").disabled = true;
+      setState("Saving…");
+      const res = await fetch("/api/novels/" + encodeURIComponent(slug) + "/board", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ mtime: board.mtime, cards: board.cards }),
+      });
+      const data = await res.json().catch(() => ({ error: "Could not save." }));
+      if (!res.ok) {
+        setState(data.error || "Could not save.", "err");
+        $("save").disabled = false;
+        return;
+      }
+      board = data;
+      dirty = new Set();
+      draw();
+      markDirty();
+      const time = new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+      setState("Saved to the story map at " + time + ".");
+    }
+
+    document.addEventListener("input", (event) => {
+      const field = event.target.closest("[data-k]");
+      if (!field) return;
+      const i = Number(field.closest(".card").dataset.i);
+      board.cards[i][field.dataset.k] = field.value;
+      dirty.add(i);
+      if (field.dataset.k === "tension") drawShape();
+      markDirty();
+    });
+
+    document.addEventListener("click", async (event) => {
+      const btn = event.target.closest("button.open");
+      if (!btn) return;
+      await fetch("/api/novels/" + encodeURIComponent(slug) + "/open-chapter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ file: btn.dataset.file }),
+      });
+    });
+
+    $("save").addEventListener("click", save);
+
+    window.addEventListener("beforeunload", (event) => {
+      if (dirty.size) {
+        event.preventDefault();
+        event.returnValue = "";
+      }
+    });
+
+    load().catch((err) => setState(err.message || "The desk server is not running.", "err"));
+  </script>
+</body>
+</html>

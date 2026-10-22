@@ -21,7 +21,7 @@ Every Open Me writes the chapter to disk when you leave that page: another chapt
 | File | What it is |
 |------|------------|
 | `CANON.md` | Bible + characters + world + rules. One living file. |
-| `STORY-MAP.md` | Acts, titles, and the three-to-four-sentence beats. Outline and expanded outline were the same document wearing two hats. |
+| `STORY-MAP.md` | Acts, titles, and the three-to-four-sentence beats. Outline and expanded outline were the same document wearing two hats. The board on the desk shows its Chapters section as one card per chapter and saves back into it. Keep each block's `- File:`, `- Does:`, `- Eyes:`, `- Where:`, `- Tension:` and `- Status:` lines so the board can read it. |
 | `STORY-STATE.md` | What has happened, what is promised, what is open, what changed last sitting. |
 | `WHO-KNOWS.md` | Which character knows which fact, as of which chapter. The partner keeps it after sittings. The Professor reads it before he takes the pen. Not a gate before Chapter 1. |
 | `VOICE.md` | A short taste note, plus fingerprints taken from *his* pages when pages exist. |

@@ -60,6 +60,187 @@ def chapter_count(novel: Path) -> int:
     return count
 
 
+BOARD_FIELDS = ("does", "eyes", "where", "tension", "status")
+BOARD_LABELS = {
+    "does": "Does",
+    "eyes": "Eyes",
+    "where": "Where",
+    "tension": "Tension",
+    "status": "Status",
+}
+BOARD_STATUSES = ("", "Drafting", "Revising", "Settled", "Needs a look")
+CHAPTERS_HEADING_RE = re.compile(r"^## Chapters[ \t]*$", re.MULTILINE)
+NEXT_HEADING_RE = re.compile(r"^## ", re.MULTILINE)
+BOARD_NOTE = (
+    "The board on the desk reads and writes this section. "
+    "One block per chapter file. Keep the labels as they are."
+)
+
+
+def chapter_files(novel: Path) -> list[Path]:
+    chapters = novel / "chapters"
+    if not chapters.is_dir():
+        return []
+    files = [
+        path
+        for path in chapters.iterdir()
+        if path.suffix.lower() == ".md" and CHAPTER_FILE_RE.match(path.name)
+    ]
+    return sorted(files, key=lambda p: p.name.lower())
+
+
+def chapter_facts(path: Path) -> dict:
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        text = ""
+    lines = [line.strip() for line in text.splitlines()]
+    number_match = re.match(r"^ch(\d+)", path.name, re.IGNORECASE)
+    number = int(number_match.group(1)) if number_match else 0
+    title = path.stem.split("-", 1)[-1].replace("-", " ").title()
+    opening = ""
+    for index, line in enumerate(lines):
+        if not line:
+            continue
+        heading = re.match(r"^#*\s*Chapter\s+\w+\s*[:.\-—]\s*(.+)$", line, re.IGNORECASE)
+        if index < 3 and heading:
+            title = heading.group(1).strip()
+            continue
+        if line.startswith("#"):
+            continue
+        opening = line
+        break
+    if len(opening) > 220:
+        opening = opening[:220].rsplit(" ", 1)[0] + "…"
+    return {
+        "file": path.name,
+        "number": number,
+        "title": title,
+        "words": len(text.split()),
+        "opening": opening,
+    }
+
+
+def story_map_path(novel: Path) -> Path:
+    return novel / "back-office" / "STORY-MAP.md"
+
+
+def chapters_section(text: str) -> tuple[int, int] | None:
+    found = CHAPTERS_HEADING_RE.search(text)
+    if not found:
+        return None
+    start = found.end()
+    after = NEXT_HEADING_RE.search(text, start)
+    end = after.start() if after else len(text)
+    return start, end
+
+
+def parse_board(text: str) -> dict[str, dict]:
+    span = chapters_section(text)
+    if not span:
+        return {}
+    section = text[span[0] : span[1]]
+    entries: dict[str, dict] = {}
+    for block in re.split(r"^### ", section, flags=re.MULTILINE)[1:]:
+        values: dict[str, str] = {}
+        for line in block.splitlines()[1:]:
+            match = re.match(r"^-\s*(\w+):\s*(.*)$", line.strip())
+            if match:
+                values[match.group(1).lower()] = match.group(2).strip()
+        name = values.get("file", "")
+        if name:
+            entries[name] = {key: values.get(key, "") for key in BOARD_FIELDS}
+    return entries
+
+
+def one_line(value: object) -> str:
+    return " ".join(str(value or "").split())
+
+
+def render_board(cards: list[dict]) -> str:
+    parts = ["", "", BOARD_NOTE, ""]
+    for card in cards:
+        parts.append(f"### {card['number']}. {card['title']}")
+        parts.append(f"- File: {card['file']}")
+        for key in BOARD_FIELDS:
+            parts.append(f"- {BOARD_LABELS[key]}: {one_line(card.get(key))}")
+        parts.append("")
+    return "\n".join(parts) + "\n"
+
+
+def board_payload(novel: Path) -> dict:
+    path = story_map_path(novel)
+    text = path.read_text(encoding="utf-8") if path.is_file() else ""
+    saved = parse_board(text)
+    cards = []
+    for chapter in chapter_files(novel):
+        facts = chapter_facts(chapter)
+        notes = saved.get(facts["file"], {})
+        facts.update({key: notes.get(key, "") for key in BOARD_FIELDS})
+        cards.append(facts)
+    return {
+        "slug": novel.name,
+        "title": novel_title(novel),
+        "mtime": path.stat().st_mtime if path.is_file() else 0,
+        "statuses": list(BOARD_STATUSES),
+        "cards": cards,
+    }
+
+
+def clean_card(card: dict) -> dict:
+    cleaned = {key: one_line(card.get(key)) for key in BOARD_FIELDS}
+    tension = cleaned["tension"]
+    if tension and not (tension.isdigit() and 1 <= int(tension) <= 10):
+        raise ValueError("tension must be 1 to 10")
+    if cleaned["status"] not in BOARD_STATUSES:
+        raise ValueError("unknown status")
+    return cleaned
+
+
+def save_board(novel: Path, data: dict) -> dict:
+    path = story_map_path(novel)
+    current = path.stat().st_mtime if path.is_file() else 0
+    if abs(float(data.get("mtime") or 0) - current) > 0.001:
+        raise FileExistsError(
+            "The story map changed since you opened the board. Reload to see the new version."
+        )
+    sent = {str(card.get("file", "")): card for card in data.get("cards", []) if isinstance(card, dict)}
+    cards = []
+    for chapter in chapter_files(novel):
+        facts = chapter_facts(chapter)
+        if facts["file"] in sent:
+            facts.update(clean_card(sent[facts["file"]]))
+        else:
+            facts.update({key: "" for key in BOARD_FIELDS})
+        cards.append(facts)
+    text = path.read_text(encoding="utf-8") if path.is_file() else "# Story map\n"
+    span = chapters_section(text)
+    body = render_board(cards)
+    if span:
+        tail = text[span[1] :]
+        text = text[: span[0]] + body + ("\n" + tail if tail else "")
+    else:
+        text = text.rstrip() + "\n\n## Chapters" + body
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_suffix(".md.tmp")
+    temp.write_text(text, encoding="utf-8")
+    temp.replace(path)
+    return board_payload(novel)
+
+
+def open_chapter(novel: Path, name: str) -> None:
+    if name not in {path.name for path in chapter_files(novel)}:
+        raise FileNotFoundError("no such chapter")
+    target = novel / "chapters" / name
+    for cmd in (["cursor", "-r", str(target)], ["open", "-a", "Cursor", str(target)]):
+        try:
+            subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            return
+        except OSError:
+            continue
+    subprocess.Popen(["open", str(target)])
+
+
 def novel_title(novel: Path) -> str:
     today = read_text(novel / "TODAY.md", 4000)
     match = re.search(r"\*\*Novel:\*\*\s*(.+)", today)
@@ -192,6 +373,19 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/api/desk":
             self._json(200, desk())
             return
+        match = re.fullmatch(r"/board/([a-z0-9-]+)", path)
+        if match:
+            html = (SKIN / "board.html").read_bytes()
+            self._send(200, html, "text/html; charset=utf-8")
+            return
+        match = re.fullmatch(r"/api/novels/([a-z0-9-]+)/board", path)
+        if match:
+            novel = NOVELS / match.group(1)
+            if not (novel / "TODAY.md").is_file():
+                self._json(404, {"error": "no such book"})
+                return
+            self._json(200, board_payload(novel))
+            return
         match = re.fullmatch(r"/api/novels/([a-z0-9-]+)", path)
         if match:
             slug = match.group(1)
@@ -229,6 +423,25 @@ class Handler(BaseHTTPRequestHandler):
                 self._json(200, {"ok": True})
             except (ValueError, FileNotFoundError) as exc:
                 self._json(404, {"error": str(exc)})
+            return
+        match = re.fullmatch(r"/api/novels/([a-z0-9-]+)/(board|open-chapter)", path)
+        if match:
+            novel = NOVELS / match.group(1)
+            if not (novel / "TODAY.md").is_file():
+                self._json(404, {"error": "no such book"})
+                return
+            try:
+                if match.group(2) == "board":
+                    self._json(200, save_board(novel, data))
+                else:
+                    open_chapter(novel, str(data.get("file", "")))
+                    self._json(200, {"ok": True})
+            except FileExistsError as exc:
+                self._json(409, {"error": str(exc)})
+            except FileNotFoundError as exc:
+                self._json(404, {"error": str(exc)})
+            except ValueError as exc:
+                self._json(400, {"error": str(exc)})
             return
         self._json(404, {"error": "not found"})
 

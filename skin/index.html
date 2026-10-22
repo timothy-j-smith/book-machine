@@ -172,6 +172,7 @@
         '<button class="primary sit" data-slug="' + esc(book.slug) + '" type="button">' +
         (isContinue ? "Continue here" : "Sit down") +
         "</button>" +
+        '<a class="ghost" href="/board/' + encodeURIComponent(book.slug) + '">Open the board</a>' +
         "</div></div>"
       );
     }
