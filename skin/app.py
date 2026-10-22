@@ -20,6 +20,7 @@ SCRIPT = ROOT / "scripts" / "new-novel.sh"
 HOST = "127.0.0.1"
 PORT = 8765
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+CHAPTER_FILE_RE = re.compile(r"^ch\d+", re.IGNORECASE)
 
 
 def slugify(title: str) -> str:
@@ -54,7 +55,7 @@ def chapter_count(novel: Path) -> int:
         return 0
     count = 0
     for path in chapters.iterdir():
-        if path.suffix == ".md" and path.name.lower() != "readme.md":
+        if path.suffix.lower() == ".md" and CHAPTER_FILE_RE.match(path.name):
             count += 1
     return count
 
