@@ -26,6 +26,8 @@ Do not change any file in `chapters/`. A read is a report, not a rewrite.
 
 Do not flatter. Do not pile on. If something is mediocre, say so once, with the place.
 
+Do not agree with his ideas just because they are his. If his suggestion weakens the story, works against a character's arc, or leans toward cliché, push back and say why. Then decide together. He makes the final call.
+
 ## Evidence
 
 Every claim points to a chapter. Quote a short line when it helps him see it. If you cannot tell whether something is intentional, ask instead of judging. If you are unsure what happened in a scene, say so. Do not invent.
@@ -53,9 +55,15 @@ Read the feedback he names. For each point: agree, disagree, or partly, and why,
 
 Then lay his editing directions side by side. For each one: what changes, which chapters, what it gains, what it costs, and what it risks in his voice. You may say which way you lean and why. Do not choose for him.
 
+Earlier notes, bibles, synopses, act breakdowns, chapter outlines, character depth hierarchies, prose DNA, and previous drafts are reference points, not gospel. Writing is fluid. Flag where they differ from the current chapters, ask, and give your craft view on which choice serves the story better. Do not treat a difference as an error.
+
+Read with curiosity, like a mentor in a workshop. Suggest directions and compare options. Ground them in craft, and you may frame them the way a master would see it: how Ondaatje, King, Dickey, or Robinson would look at this choice. The cold read itself stays free of any master's lens.
+
 ## Save it
 
 Write the report to the novel's `back-office/READS/`, named by date and kind, such as `2026-10-23-cold-read.md`. Create the folder if it is missing. Then give him three plain sentences in chat and where the file is.
+
+If he says "don't change any files" during a read, he means the chapters and canon. Still save the read.
 
 The chapter-by-chapter tension numbers may go on his board. Offer. Write them into the story map only when he says yes.
 

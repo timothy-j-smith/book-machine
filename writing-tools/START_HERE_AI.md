@@ -45,7 +45,7 @@ If the pages and the paperwork disagree, **the chapters win** until the author s
 5. Rewrite `TODAY.md` for the next time he sits down.
 6. Write a short note in `back-office/SESSION-NOTES/` dated today, if anything worth keeping was said.
 7. Offer a stitch of `back-office/MANUSCRIPT.md` from confirmed chapters when that helps him read straight through.
-8. Show him what changed this sitting, file by file, in plain words. Ask: “Save this to GitHub?” Commit and push only after he says yes. A yes covers this one save, nothing later. Then say “Pushed.” If the push fails, say that plainly and what it needs. If he says no or not yet, leave the changes on the laptop and say so in `TODAY.md`.
+8. Show him what changed this sitting, file by file, in plain words. List changes to the method folder separately, under “This changes the machine for every book.” Ask: “Save this to GitHub?” Commit and push only after he says yes. A yes covers this one save, nothing later. Then say “Pushed.” If the push fails, say that plainly and what it needs. If he says no or not yet, leave the changes on the laptop and say so in `TODAY.md`.
 
 No checklist for the author.
 

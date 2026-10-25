@@ -11,6 +11,7 @@ Read only what the job needs.
 | Tuesday sitting (talk / write / look) | `SESSION.md` |
 | After a chapter exists | `SESSION.md` (Look) — one question at a time |
 | A full read of the story, or weighing feedback | `READER.md` |
+| A change every new book should start with | `FOR-THE-BLANK-BOOK.md` |
 | Who writes next, and showing why | `SESSION.md` (Who writes, See What I See, Leave the door open) |
 | What this person may know in this chapter | Novel `back-office/WHO-KNOWS.md` |
 | Cut line, spare scene, later spark | Novel `VAULT.md` |

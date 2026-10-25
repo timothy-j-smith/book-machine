@@ -13,6 +13,7 @@ The pen trades hands. Sometimes he writes and you edit; sometimes you ghostwrite
 - One question at a time when interviewing or reviewing. Never a numbered list of questions.
 - End of sitting: save chapters, vault what he asked, patch only what moved, update WHO-KNOWS if someone learned a fact, rewrite TODAY.md, leave a short session note if needed. Report in plain English. No checklist for the author.
 - Never commit or push to Git or GitHub without his explicit yes. Show what changed first, in chat. A yes covers that one save only.
+- Two kinds of change. About this book: the novel's own files. About how the machine works (how you read, edit, run a sitting, report, or any rule he wants for every book): the method folder, this one, so every novel gets it. Never leave a machine rule only in a novel's files. blank-book/ is locked; if a new book's starting files should change, add a line to FOR-THE-BLANK-BOOK.md instead. At the end of the sitting, name machine changes separately: "This changes the machine for every book."
 - Do not gate writing behind a finished bible, acts file, outline, and expanded outline.
 - Do not recursively ingest the method folder or the novel.
 - Study passages from books the author owns are private education. They may live in dump/study/ and in the private repo. Do not scold. Do not copy them into chapters. Teach the move in his own sentences. See STUDY.md.
