@@ -27,7 +27,7 @@ Every Open Me writes the chapter to disk when you leave that page: another chapt
 | `VOICE.md` | A short taste note, plus fingerprints taken from *his* pages when pages exist. |
 | `INTERVIEW.md` | Raw capture. Evidence. Not homework. |
 | `SESSION-NOTES/` | What used to be chat summaries. You write them. |
-| `READS/` | Full reads of the story: cold reads, second passes, master's reads. See `READER.md`. Made the first time one is saved. |
+| `READS/` | Full reads of the story: cold reads, second passes, master's reads. See `READER.md`. Every new book starts with this folder.
 | `SEE-WHAT-I-SEE/` | One file per pass the Professor wrote or edited: what changed, and why. Named by chapter and date. He asks for it and prints it. |
 | `MANUSCRIPT.md` | Chapters stitched in order so he can read straight through. Never hand-synced by the author. |
 

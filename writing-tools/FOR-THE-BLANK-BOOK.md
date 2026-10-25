@@ -6,8 +6,8 @@ One line each: the date, the novel it came from, what should change, and why.
 
 ## Waiting
 
-- 2026-10-23, Qitat al-Medina: add an empty `back-office/READS/` folder, so every book has a place for full reads (see `READER.md`).
+*(nothing yet)*
 
 ## Done
 
-*(nothing yet)*
+- 2026-10-24: added `back-office/READS/` so every new book has a place for full reads (see `READER.md`). Came from Qitat al-Medina.
