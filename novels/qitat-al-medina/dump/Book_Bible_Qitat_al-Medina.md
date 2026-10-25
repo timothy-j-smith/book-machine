@@ -41,14 +41,14 @@ The spine is **the inheritance of the father's interrupted life, monumentalized 
 
 ---
 
-## CHAPTER TITLES (locked)
+## CHAPTER TITLES
 
 1. Simo
 2. Panenka
 3. Vespa
 4. Jellies
 5. Weight
-6. Tea
+6. Sparrow
 7. Phantom
 
 ---

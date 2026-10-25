@@ -1,13 +1,11 @@
 # Today
 
 **Novel:** Qitat al-Medina
-**Sitting:** brought onto the shelf. Not a writing sitting yet.
-**Form:** Novella. About 5,700 words. Not finished.
+**Sitting:** 2026-10-24 closed. Decisions filed. No chapter rewritten.
+**Form:** Novella, expanding. Seven chapters on the page. Count is open.
 
-Seven chapters are in `chapters/`. Simo, Panenka, Vespa, Jellies, Weight, Sparrow, Phantom.
+The sitting of 2026-10-24 is saved on GitHub.
 
-Open `READING-NOTES.md` beside the chapter you are looking at. Those are recommendations from the spring reading. You decide what changes. The notes do not rewrite the pages on their own.
+The cold read and the second pass are in `back-office/READS/`. The settled choices are under "What the author decided" in the second-pass file. Do not reopen them unless he asks.
 
-`drafts/01/` is the frozen copy of these pages. Write in `chapters/`. Say “keep this draft” when you want the next frozen copy. Draft 01 stays.
-
-One job when you sit down: read a chapter, then the note that belongs to it, and say what you want kept.
+One job when you sit down: start the rewrite with Chapter 6 — the wall-pass goal, the flag, and Youssef's lunge. Do not change any chapter until he says to write.
