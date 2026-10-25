@@ -74,7 +74,7 @@ When he asks for a change in a chapter, edit that file in `chapters/`. He review
 
 ## Keep this draft
 
-When he says “keep this draft,” copy `chapters/` to the next number in `drafts/` (`02`, then `03`). Do not overwrite an older number. Leave `chapters/` as the pages he keeps writing. Offer a GitHub snapshot of that number when he wants the copy off the laptop. Do not make him hunt through Git to find a chapter.
+When he says “keep this draft,” copy `chapters/` to the next number in `drafts/` (`02`, then `03`). Do not overwrite an older number. Leave `chapters/` as the pages he keeps writing. Offer a GitHub snapshot of that number when he wants the copy off the laptop. Push only after he says yes. Do not make him hunt through Git to find a chapter.
 
 ## Dump
 
