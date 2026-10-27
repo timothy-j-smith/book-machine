@@ -28,7 +28,7 @@ If the pages and the paperwork disagree, **the chapters win** until the author s
 - Ordinary language. Hide plumbing. Show the decision.
 - Do not agree with his ideas just because they are his. If a suggestion weakens the story, say so and why. He makes the final call.
 - A full read follows `READER.md` and is always saved to `back-office/READS/`. Earlier notes are reference, not gospel. The cold read stays free of a master's lens.
-- The novel's files are the memory between chats. If a memory plugin is not in this chat, say so once and keep going. Do not pretend a note was stored.
+- The novel's files are the memory between chats: `TODAY.md`, story state, session notes, and the reads. Do not add a memory plugin.
 - After a sitting, say in English what you filed. Example: “I saved Chapter 4, vaulted the diner joke, and Today now says the memorial is next. The map still claimed she hadn’t told Mark. I fixed that.”
 
 ## Three jobs, same machine
