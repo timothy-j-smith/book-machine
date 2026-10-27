@@ -277,3 +277,102 @@ Each of these keeps the mystery that makes Ahmed powerful while finally putting 
   6. *Chapter 5, the right back:* yes. Show it from outside, for example "still turning when the cross came in." Final wording at revision.
 - **The gardien at the match.** One line at halftime, during the 2–0 deficit, glimpsed from under the bleachers and recognized only by his sign: arms crossed, the back of his shirt wrinkled into a perfect Y. Never named, no reaction from Youssef. He's loyal in the loss, not there for a curtain call. He's the first to cut if the crowd feels full.
 - **The teenager with the phone is cut from the match.** He belongs to the concrete pitch in Chapter 4. The familiar faces at the match, each with one job: Hadj Brahim (the father's history), the stranger (recognition of the boy alone), the gardien (loyalty), Ahmed (hidden, beyond the fence).
+- **The jersey is red, and it is the national shirt.** Number 10. Ahmed wore it as one of the country's best, and he stopped playing when that squad failed to qualify and the country turned its back. The gold embroidered emblem stays. The mark that makes it national, not club, is the green five-pointed star from the Moroccan flag. On the 2010 shirt the badge sat on the left chest and that star sat on the right shoulder. Checked 2026-10-27: the home shirt launched for 2010 was actually green with red trim. Red is kept anyway. It is already on the page, it is a true Moroccan home color, and a reader now pictures Morocco in red. A green shirt would sit too close to Raja. The Wydad and Raja walls stay. They are the city's clubs. The green star is the country. Do not translate the graffiti.
+- **What Youssef sees in Chapter 7.** Only the green star catching the lamplight in the gold embroidery, before Ahmed folds the cloth over it. He does not see the number 10. The number is canon, not on the page.
+- **Where the family lives:** Rue de la Douane, in the old medina, as the chapters have it. The "Derb Sultan" in the research prose does not carry over.
+- **Fatima gets a night scene (new, for the novella).** Somewhere in the middle of the book, Youssef lies awake behind the curtain. He watches his mother cross the dark room and press his father's hand down over something folded on his knees. He can't see what it is, and nobody speaks. Chapter 7's glimpse of the red and the green star then shows him what she was covering. The touch is hers, so the father-son distance holds. Exact placement waits for the expansion plan.
+- **The winner (Chapter 6): a free kick, not a penalty. No Panenka anywhere.** Luca draws Youssef's lunge just outside the box and makes a theatrical meal of it, rolling on the turf to sell the contact. Badr takes the free kick: calm, clinical, in. It comes right after the disallowed goal and swings the match. The final whistle follows soon after. Exact closing beats at drafting. Luca gets the showmanship, Badr the cold execution. Badr's winner makes his later "It counted" cost him something.
+- **Order of work.** First finish this structural pass through all seven chapters: open questions, continuity, gaps. Then plan the novella expansion (new chapters or deeper existing ones). Only then begin the prose rewrite. The chapter count is not fixed at seven. After the pass, regroup and decide: a tightened short story, or a novella.
+- **Younes gets one moment in the match.** It is built from his own skill, the freestyler's touch from Ain Diab that nobody from the medina would try. It helps the comeback, probably by keeping a ball alive just before Karim's goal or Yazid's equalizer. The Chapter 3 entrance stays. The exact move waits for drafting.
+
+- **Bilal first appears in the Chapter 4 roster.** He joins Isklander, Chams-Eddine, and Yazid in the list of who Youssef brought to the concrete pitch. Not in Chapter 1.
+- **Bilal's arc, kept small.** The medina has no keepers. On the stones everyone wants the ball at his feet. Bilal has always studied goalkeepers and wanted to play in goal, but the pavement never gave him the chance. Karim's "Real goals" is what brings him to the concrete pitch. On the sand he finds out he is acrobatic and fearless when he dives. On the turf he settles in and sharpens as the match goes on. On Badr's free kick he gets his fingertips to it, and it goes in anyway. That shows the quality of the strike and that he gave everything. It also mirrors Youssef's chip, which the keeper never touched ("They say the goalkeeper never touched it"). Chapter 6's "grazed nothing" moves to the free kick and changes to a fingertip touch.
+- **Bilal's progression, chapter by chapter.**
+  - *Chapter 4, concrete:* the coastal boys bring the medina boys back to the sun-baked, bone-white concrete pitch beside the fence. It is futsal-sized, with weathered goal frames and no nets, set against Raja's nets "that hung without a wrinkle." Bilal finally has a goal to defend. He does not dive on concrete. He keeps goal on positioning and reflexes.
+  - *Chapter 5, training week:* beach sessions with the coastal boys join the Hay Mohammadi practice. With no pavement to fear, Bilal dives for the first time and finds out how acrobatic he can be. Youssef sees it.
+  - *Chapter 5, match:* the existing "before Bilal set his feet" reads as the old concrete habit under pressure. One save in the second half holds the score so the comeback can happen.
+  - *Chapter 6:* fingertips on Badr's free kick.
+  - Flag for drafting: if Youssef's Chapter 4 goal on the concrete is scored against Bilal, decide whether that matters or whether Bilal is on his side.
+
+- **Khalid stays Khalid** (Omar's older brother). He becomes a real secondary character with a beginning, middle, and end, not just the phone and the Vespa. No new names in the book.
+- **Who Khalid is.** The older-brother figure, a beach person and not a footballer. He keeps a watchful, protective eye on the younger boys and wants them to succeed. He is proud of their talent and never competes with them. He is their bridge to the wider world: the phone opens global football (Chapter 2), and the Vespa opens the beach, where the connection for the big match is made (Chapter 3). Shape: phone (Chapter 2), Vespa to Ain Diab (Chapter 3), the beach sessions in the training week (Chapter 5), and arriving at the match with the surfboard crowd (Chapter 5). 
+- **What looking after the boys costs Khalid.** Three things, woven in lightly. Each appears once or twice and is never explained or tallied.
+  - *The waves (the main one).* He sits on the sand with his board beside him while the boys train. His friends shout from the water; he lifts a hand and stays. On match night he comes with the surfboard crowd, and his board is dry.
+  - *The Vespa.* One detail: the engine coughs on the climb out of the medina, or he checks a tire before the boys climb on. No repair money on the page.
+  - *The phone.* Shown, not counted. For example, the battery goes red during the third replay in Chapter 2 and he lets it play. The "water from a well" image stays.
+  - Ruled out: a lost football career, which is Ahmed's story. Optional for later: one glance back at Omar on the boulevard, if the fear of being responsible for him is wanted.
+
+- **Aicha gets a small, poetic arc.** She is the younger sister with her mother's eyes, and she is growing into Fatima's quiet understanding. Youssef notices how differently she sees things, and that is the emotional bridge between him, Aicha, and Fatima. He sees her seeing; the narration never enters her head. Her arc stays in the home. The Bible's cut of her from the match stands, and the crown is not re-staged.
+  1. *Chapter 1:* asleep in the corner, as written.
+  2. *Chapter 3:* the crown, Fatima's eyes. When Ain Diab is named and Ahmed's hand pulls back, Youssef sees Aicha's eyes go to their father's hand, not to him, the way their mother's do. He doesn't know what she saw.
+  3. *Chapter 7:* Youssef comes home. Aicha doesn't ask about the score. She looks toward the stairs, and he goes up to find Ahmed.
+
+- **Chams-Eddine plays the wall pass in Chapter 6.** He was beaten in the air for the first goal and sat with his head between his knees at halftime. Now he reads the space ("as Simo read the pigeons") and returns the ball to Youssef clearly onside. It is the best pass of the night, and it makes the flag more wrong.
+- **Yazid stays as written.** He has a full arc: built for competitions, never quits, scores the equalizer. Chams-Eddine and Yazid do not need to appear in Chapter 1.
+
+- **The Ain Diab flinch is paid off by the doorway.** There is no separate scene. In Chapter 3 the hand lands on Youssef and pulls away at the name. In Chapter 7 the hand settles, "rearranged," while father and son face the minaret down the alley. The only job is in Chapter 3: make the flinch a physical image strong enough to carry four chapters.
+
+- **"The water is colder than it looks" pays off through Khalid, at the end of Chapter 3.** Khalid comes out of the surf shivering and laughing, and Youssef notices. Nothing is explained. The water is cold, as the father said, and Khalid laughs anyway. This also sets up Khalid's cost: in Chapter 3 he goes in, and in the training week his board stays dry.
+
+- **The work cap carries the Grand Stade.** The cap Youssef glimpses beyond the fence in Chapter 6 is grey with cement dust: Ahmed came straight from the site. Youssef does not look twice. In Chapter 7, when Ahmed shows he was there, the reader remembers the cap. This is the Grand Stade's echo in the current chapters. The lunch scene stays an expansion candidate.
+
+- **What Youssef knows about his father: the myth without the wound.** He was born after the 2010 failure, never saw Ahmed play, and never heard it spoken of at home. The medina keeps the glory and buries the ending. To Youssef, "The Phantom" is old-city myth, like the cat stories. He has no reason to search for it on Khalid's phone. He does not inherit the shame because he does not know it. The idea of having him avoid searching his father's name in Chapter 2 is dropped: it would make him a keeper of the silence. He discovers it in stages:
+  1. *Chapter 1:* the café men's legend, plus one added sentence: *At home, no one said it.*
+  2. *Chapter 6:* Badr: "Akesbi. He played with him." The myth was a real career.
+  3. *Chapter 7:* the green star in the chest. He learns the national shirt by seeing it.
+  4. *Chapter 7, the doorway:* "The Phantom," the street's name brought into the house for the first time. He isn't breaking a silence he kept. He's ending one he only just found.
+
+## Character audit (2026-10-27)
+
+Every named person across the seven chapters, checked for a beginning, middle, and end.
+
+- **Bilal is not a rename leftover.** The notes say he was renamed from Anass to avoid collisions with Ahmed and Aicha. No "Anass" survives in the chapters. He is the medina keeper, and he has never been introduced. He is missing from the Chapter 4 roster (Isklander, Chams-Eddine, Yazid). His first appearance is in Chapter 5, conceding ("before Bilal set his feet"). His second is in Chapter 6, conceding again ("His outstretched glove grazed nothing"). He exists only to be beaten.
+- **Thin threads:**
+  - Khalid has the phone in Chapter 2 and the Vespa in Chapter 3, then is gone.
+  - Aicha has the crown in Chapter 3, then is gone.
+  - Fatima is not in Chapters 5–7. The night scene is already planned.
+  - Chams-Eddine and Yazid live only in Chapters 4–5, never in the medina games of Chapters 1–3.
+- **Threads that hold:**
+  - Omar, Karim, and Hadj Brahim.
+  - The cats: Simo opens and closes the book, and Hamza and Lalla return as moves.
+  - The French tourist: the Messi jersey in Chapter 1, the boots in Chapter 5.
+  - Isklander: his cat line in Chapter 1, his speed in Chapter 4, his assist in Chapter 5.
+  - Akesbi is "the Coach" until Badr names him in Chapter 6, which is intended.
+  - The keepers in Chapter 6's chip and Chapter 7's "never touched it" are Raja's keeper, not Bilal.
+
+## Parked for after the pass
+
+Things already decided in shape, with details left for drafting or for the expansion plan. Add to this as we go.
+
+**Match beats (Chapter 6)**
+- Younes's moment: which move, and which goal it feeds.
+- Closing beats after Badr's free kick: how long to the whistle, what Youssef sees.
+- The gardien's halftime line: exact wording.
+
+**Bilal**
+- His roster sentence in Chapter 4: one or two lines, same weight as Isklander's.
+- The beach sessions in the Chapter 5 training week: Bilal's first dive, as Youssef sees it. These sessions are also an expansion candidate for a fuller training week.
+- His saves in the match: at most one or two, seen from Youssef's place on the pitch. The fingertip touch on Badr's free kick.
+
+**Khalid**
+- Placing his three textures: the dry board (training week, match night), the Vespa detail (Chapter 3 or the training week), the battery (Chapter 2).
+
+**Lines to write together**
+- Ahmed's doorway line: he repeats his own uphill lesson and finishes it with "Downhill, I never learned." Final wording at drafting.
+- Chapter 5, the right back: "still turning when the cross came in," or similar.
+
+**Setups the ending needs**
+- Chapter 1's added sentence, *At home, no one said it.* Exact wording at drafting.
+- The metered father-son touches across the arc, ending in the hand at the doorway.
+
+**Prose polish (for the rewrite)**
+- Professor K: Youssef's thoughts sometimes sound older than twelve. Check the voice line by line.
+- The phrase people said when they paid into the mosque, to replace "Great Hope Watching Over Us." Draft with Chapter 7.
+- The Chapter 3 hand flinch, made physical enough to carry to Chapter 7.
+
+**Expansion candidates (if it becomes a novella)**
+- Chapters 1–3 front-load setup (cold read). Deciding short story or novella decides how to fix it.
+- Fatima's night scene at the cedar chest. Placement open.
+- The Grand Stade lunch.
+- More room for the training week and the first half of the match.
+- Bilal arrives properly.
