@@ -3,6 +3,6 @@
 **Novel:** Qitat al-Medina
 **Form:** A long story, about 12,000–15,000 words. Eight chapters once Hand is written.
 
-One job: decide who holds the pen for Sparrow. Then draft Sparrow only when he says write.
+The plan is locked. One job: decide who holds the pen for Sparrow. Then rewrite Sparrow only when he says write.
 
-The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`. Every decision is under "What the author decided" in `back-office/READS/2026-10-23-second-pass.md`. The stale parked items have been corrected, and the plan wins over that list.
+Start with `back-office/SESSION-HANDOFF-2026-10-28.md`. The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`, and it wins over any older note.
