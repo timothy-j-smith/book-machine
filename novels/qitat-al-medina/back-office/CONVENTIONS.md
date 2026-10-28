@@ -21,13 +21,13 @@ Youssef, Ahmed, Fatima, Aicha, Omar, Khalid, Karim, Badr, Hadj Brahim, Isklander
 
 Do not swap these across categories.
 
-| Word | Means |
-|------|--------|
-| toes | artistry and inheritance |
-| soles | contact and labor |
-| feet | the world's view of the body |
+| Word  | Means                        |
+| ----- | ---------------------------- |
+| toes  | artistry and inheritance     |
+| soles | contact and labor            |
+| feet  | the world's view of the body |
 
-`"palms of his feet"` in Chapter 1 is intentional. Do not change it to soles.
+`"palms of his feet"` in Simo is intentional. Do not change it to soles.
 
 ## Leave untranslated
 
@@ -43,4 +43,4 @@ No footnotes. No italics beyond what is already there.
 - `"Two Fridays arrived hot and bright"` — do not add "later"
 - `"smiled a goodbye"` — keep
 - `"No one in the family climbed the stairs to the roof to look at it"` — apartment stairs to their roof, not the minaret. Do not rewrite.
-- Chapter 6 title is **Sparrow**. The chip goal carries two images only: mother's bread, and the curtain. Do not restore the tea simile.
+- The match chapter is titled **Sparrow** (current ch06; becomes ch07 when Hand is saved). The chip goal carries two images only: mother's bread, and the curtain. Do not restore the tea simile.

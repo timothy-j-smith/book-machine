@@ -275,7 +275,7 @@ Each of these keeps the mystery that makes Ahmed powerful while finally putting 
   4. *Chapter 5, the coach:* yes. Cut "long since forgiven," leaving "a limp he had earned long ago."
   5. *Chapter 5, the defender:* yes. "By the time the defender turned…"
   6. *Chapter 5, the right back:* yes. Show it from outside, for example "still turning when the cross came in." Final wording at revision.
-- **The gardien at the match.** One line at halftime, during the 2–0 deficit, glimpsed from under the bleachers and recognized only by his sign: arms crossed, the back of his shirt wrinkled into a perfect Y. Never named, no reaction from Youssef. He's loyal in the loss, not there for a curtain call. He's the first to cut if the crowd feels full.
+- **The gardien at the match.** One sentence of narration at halftime (he does not speak), during the 2–0 deficit, glimpsed from under the bleachers and recognized only by his sign: arms crossed, the back of his shirt wrinkled into a perfect Y. Never named, no reaction from Youssef. He's loyal in the loss, not there for a curtain call. He's the first to cut if the crowd feels full.
 - **The teenager with the phone is cut from the match.** He belongs to the concrete pitch in Chapter 4. The familiar faces at the match, each with one job: Hadj Brahim (the father's history), the stranger (recognition of the boy alone), the gardien (loyalty), Ahmed (hidden, beyond the fence).
 - **The jersey is red, and it is the national shirt.** Number 10. Ahmed wore it as one of the country's best, and he stopped playing when that squad failed to qualify and the country turned its back. The gold embroidered emblem stays. The mark that makes it national, not club, is the green five-pointed star from the Moroccan flag. On the 2010 shirt the badge sat on the left chest and that star sat on the right shoulder. Checked 2026-10-27: the home shirt launched for 2010 was actually green with red trim. Red is kept anyway. It is already on the page, it is a true Moroccan home color, and a reader now pictures Morocco in red. A green shirt would sit too close to Raja. The Wydad and Raja walls stay. They are the city's clubs. The green star is the country. Do not translate the graffiti.
 - **What Youssef sees in Chapter 7.** Only the green star catching the lamplight in the gold embroidery, before Ahmed folds the cloth over it. He does not see the number 10. The number is canon, not on the page.
@@ -322,6 +322,60 @@ Each of these keeps the mystery that makes Ahmed powerful while finally putting 
   3. *Chapter 7:* the green star in the chest. He learns the national shirt by seeing it.
   4. *Chapter 7, the doorway:* "The Phantom," the street's name brought into the house for the first time. He isn't breaking a silence he kept. He's ending one he only just found.
 
+- **Form: a long story, about 12,000–15,000 words** (decided the morning of 2026-10-27). Not a short story: the locked additions alone reach about 9,000 words, and the father arc needs a middle scene. Not yet a novella: getting there would mean inventing material the story hasn't asked for. The locked additions plus the three middle candidates fit. The door to a novella stays open if drafting asks for it.
+
+- **A new chapter between Chapters 4 and 5: the Grand Stade by day, Fatima's night scene by night.** It is one chapter with a white-space break, not two. The night scene is too slight to stand alone, and the two scenes only work in a single breath. A chapter break would reset the clock and loosen the link between the father's refusal and the mother's hand. Badr's "Not that" ends Chapter 4, and the stadium comes next. The current Chapters 5–7 become 6–8 when the files are renumbered, which waits until he says write. Title: **"Hand."** By day the father throws the ball back with his hand, not his foot. By night the mother's hand presses his hand down. Neither hand touches Youssef, so the father-son touch saved for the last chapter stays saved.
+- **New scene: the Grand Stade lunch (the father's middle).**
+  - *Getting there:* Khalid's Vespa carries Youssef and Omar to the site at Benslimane, about 40 km out, with Youssef bringing his father's lunch. To the boys the stadium is near-mythical, the stage for 2030.
+  - *The fence:* Khalid and Omar are active, not silent partners. They talk on the ride and at the perimeter fence. Omar carries the awe of the bowl, and Khalid does the talking at the gate. Only Youssef is let through, because his father works there and they know him. Crossing the fence is the boy's alone. The line reverses Chapters 4 and 6: this time the father is inside and the boys are outside.
+  - *The core is the father.* The stadium gets a sentence or two of scale from Youssef's height. Everything else goes to Ahmed: sitting apart against a pylon, the steel toe.
+  - *Ahmed speaks two lines only, both about the work, neither about himself.* Youssef asks about 2030. Ahmed answers about curing concrete, something like *"They have to keep it wet. If it dries too fast, it cracks."* That evasion echoes the water from "colder than it looks" and plants Chapter 7's "But we cracked." Then the laborers' plastic ball rolls to rest against his boot. "Kick it back." He picks it up with his hand, tosses it back: "Play." He never touches a ball with his foot anywhere in the book.
+  - *Witnesses:* Omar does not see the ball moment. No one explains it. Rachid and his speech stay out, because that is Ahmed's interior.
+- **Don't overuse cement dust.** It already appears in Chapter 1 (knuckles), Chapter 3 ("cement hands"), and Chapter 6 (the cap). In the Grand Stade scene, describe a day laborer in other ways, for example: the yellow vest, salt lines drying on his shirt, tape on split fingers, the back of his neck burned dark, the folded cardboard he sits on, the plastic water jug. Not dusty every time.
+
+- **The training fortnight (opening of Chapter 5): a compressed passage, not a montage.** It is two weeks ("Two Fridays from now"). Training is carved out of real life, shown through one or two specific interruptions: Yazid helping at his father's stall, Youssef sent for bread. Turf and beach only, with the concrete dropped (it did its work in Chapter 4). The rhythm is set in one sentence: mornings at Ain Diab, evenings on the turf under the gardien's lights. Each surface gets one image: Bilal laughing in the sand after his first dive, and the lights left on after hours. Khalid's bodyboard stays dry on the sand.
+- **Chapter 3 sharpened: the first meeting at the beach.** They go to escape the medina's heat. When they meet the coastal boys there is real awkwardness: different neighborhoods, different looks, different games, nobody sure who invites whom. The ball settles it. These are working-class boys who play for love, their technique shaped by their ground. The brotherhood keeps building through Chapter 4's concrete game rather than finishing in Chapter 3.
+- **Khalid's board is a bodyboard, not a surfboard** (Chapter 3 already has "body surfing"). It rides to Ain Diab on the Vespa, with Youssef left free to look at the sky and the road. Seating as written: Khalid, Omar, Youssef. That makes Omar's hold awkward, so at drafting the board can stand on the floorboard between Khalid's knees, which is common on scooters and keeps it his. The payoff is that it stays dry on the sand in the training week and on match night. Chapter 5's "surfboards in hand" becomes boards in general.
+
+- **Chapter 1 braided, not cut.** Keep the opening on Simo and "He never lunged." Hamza and Lalla are taught in action during the alley game, each with one distinct behavior and texture, not in profile paragraphs. Cut the "This was the pitch" catalogue. "No one talked about what happened after" becomes the home silence, so the setup costs no extra sentence. Chapters 2 and 3 keep their length. Target for Chapter 1: about 750–800 words, with the ball moving in the first third.
+- **The cats' arc.** Chapter 1 teaches; Chapters 4–5 have Simo glimpsed; the new "Hand" chapter has one stray at the fence (placement pending); in the match their moves return unnamed, and Simo is named at halftime; Simo closes the book. The story isn't about cats. It is about observation and unspoken inheritance.
+- **The father's inheritance stays unspoken.** Ahmed never tells Youssef to watch the cats. The link is already in Chapter 1's structure: Simo is "neither the fastest nor the strongest," and The Phantom was "not because he was fast — others were faster — but because he was never where you expected." The reader sees the father in the cat. Youssef doesn't. No line anywhere connects them aloud.
+- **The stray cat crosses at the gate in "Hand."** One sentence, seen and not interpreted. Khalid is talking to the guard and Omar is staring at the bowl. A cat slips under the fence where the wire curls up. The guard doesn't look, and no one does except Youssef, who watches it go the way he always watches cats. Then he is let through. It is not near the ball moment.
+- **Zero link between Ahmed and the cats on the page.** No hint he watched cats as a boy, no dialogue, no knowing look when Youssef is called "Qit sihri." The only echo is structural: Simo "neither the fastest nor the strongest," and The Phantom "not because he was fast." Protect that pair in Chapter 1; never let them point at each other.
+- **Chapter 2 rebuilt as a present scene.**
+  - The café memory is compressed, and the "three generations" thesis line is cut. Keep the ball "above the place where the goalkeeper had been."
+  - **Ahmed is absent from the café, and Youssef notices.** When the room rises, he looks for his father and doesn't find him. Not glimpsed outside the window: that would point at the fence reveal and spend the surprise. The line combines the bench and the doorway. Working draft: *"When the room rose, Youssef looked for his father. The men were all standing. He climbed onto the bench to see over them — the old rug merchant with his cane in the air, Omar's father up on a chair — and past them the doorway, and the street beyond it, empty."* The bench gives a nine-year-old the sightline to the doorway. There is no "kept looking," because he isn't troubled. Hadj Brahim stays unnamed here. The empty doorway rhymes with the book's first and last threshold. Final wording at drafting.
+  - The street videos are cut to one, the Lagos prayer-rug clip. "They learned the same way" is cut.
+  - The ending turns the screen into the body: Youssef pauses the clip, goes down to the alley wall, tries the move, and gets it wrong.
+  - Plus Khalid's red battery and Omar's restored nod.
+- **Youssef's change: from loving a legend to holding a man.**
+  - *Start:* the game is clean, the father is a myth.
+  - *The turn:* innocence turns to grit at the fence in Chapter 4 ("Not that"). From then on he is defending the medina's way of playing, without knowing it is also his father's.
+  - *The match:* the flag, then the lunge. The wound comes down with the gift.
+  - *End:* he knows the game isn't clean, that he can come apart, and that his father is a man who came apart once. He takes his hand anyway. That is recognition, not forgiveness: he doesn't know there's anything to forgive.
+  - *The hands:* the father reaches first (stops an inch away, settles), and the son takes the hand. Never reversed.
+- **The birthday's rite of passage.** Turning twelve and the first Vespa trip past the city's edge. The permission is silent and costs something: the hand pulls away, "The water is colder than it looks." "Nothing happened. That was the problem" stays. Youssef asks about twelve and Ahmed answers about his life: the everything he was ready for never came. Keep the glance at the minaret before it.
+- **The coastal stranger at the match: once, in Sparrow, after the final whistle.** Youssef stands barefoot on the burning turf, beaten. From the bleachers one low voice says "Qit sihri," just once, and nobody joins in. Youssef looks up, catches the weathered face, and loses it in the crowd. The man who started the chant on the concrete in Jellies recognizes the boy in defeat. Kept a beat apart from Hadj Brahim lifting his cane, so the two old men don't blur.
+- **The lunge: anger without malice, selfish rather than violent.**
+  - After the flag, Youssef doesn't protest. He goes cold and deaf.
+  - When Raja break, he chases alone to take something back, to undo the flag with his own body.
+  - Omar shouts "Youssef — hold!" and he doesn't hold. He runs past Chams-Eddine, who is already in position. It is the first time in the book he doesn't hear Omar.
+  - He goes for the ball, late. His leg goes before he decides. Contact is slight, and Luca sells it.
+  - Why not retaliation: a real hack needs no selling, Badr's "It counted" would sour, and the doorway would become a lecture.
+  - Why not pure accident: he'd have nothing to carry home.
+  - Omar's unheeded "hold" can be a fragment in the Vespa replay.
+- **The aftermath of the match: he carries the lunge more than the flag.**
+  - "Didn't count" stays, said flat and tired. "It counted," twice, gives back the goal but not the lunge.
+  - Cut "I know" and "He smiled." He looks at the boots hanging from his fingers.
+  - Badr's "He knows you now" stays a faint shadow. Youssef never mentions the Sparrow at home. Any awareness between Ahmed and Akesbi lives only in the reader, because Youssef can't see his father at the fence.
+- **The Vespa ride home: the replay moves forward where the father's froze.** "Something pressed against his ribs" becomes concrete:
+  1. A plain marker ("He saw it again").
+  2. Two or three physical fragments: Luca's shoulder, the turf coming up, his own leg out in front of him, already gone.
+  3. On the footrest his right foot shifts "not toward. Away," a quarter-turn. Simo's move, never named.
+  4. Then, on its own line: the road ran down toward the sea.
+  There is no conclusion. At the doorway, "Downhill, I never learned" recognizes what the boy has already begun. The domestic runway stays short: the ride, the stairs, Aicha's look. Fatima's moment is her night scene.
+- **Fatima packs the lunch for the Grand Stade.** Wrapped in cloth, bread and something simple and specific. Her hands are in both halves of "Hand": by day she wraps the food he unwraps, and by night she presses his hand down. Not made into a symbol on the page.
+
 ## Character audit (2026-10-27)
 
 Every named person across the seven chapters, checked for a beginning, middle, and end.
@@ -342,37 +396,37 @@ Every named person across the seven chapters, checked for a beginning, middle, a
 
 ## Parked for after the pass
 
-Things already decided in shape, with details left for drafting or for the expansion plan. Add to this as we go.
+If this section disagrees with `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`, the plan wins.
 
-**Match beats (Chapter 6)**
+Real drafting details only: things decided in shape, with the exact move or wording found at drafting. Chapters are named by title.
+
+**Already decided, off this list:** the form (a long story, see the plan); Hand, with the Grand Stade lunch by day and Fatima's night scene by night, between Jellies and Weight; Chapters 1–3's slow start (Simo braided, Panenka rebuilt); Bilal's arc; "more room for the first half," which is cut.
+
+**Match beats (Weight, Sparrow)**
 - Younes's moment: which move, and which goal it feeds.
 - Closing beats after Badr's free kick: how long to the whistle, what Youssef sees.
-- The gardien's halftime line: exact wording.
+- The gardien does not speak. One glimpse at the 2–0, known by the Y in his shirt.
 
 **Bilal**
-- His roster sentence in Chapter 4: one or two lines, same weight as Isklander's.
-- The beach sessions in the Chapter 5 training week: Bilal's first dive, as Youssef sees it. These sessions are also an expansion candidate for a fuller training week.
-- His saves in the match: at most one or two, seen from Youssef's place on the pitch. The fingertip touch on Badr's free kick.
+- His roster sentence in Jellies: one or two lines, same weight as Isklander's.
+- The beach mornings in Weight's training fortnight: Bilal's first dive, as Youssef sees it.
+- His one save in Weight's second half, seen from Youssef's place on the pitch. The fingertip touch on Badr's free kick in Sparrow.
 
 **Khalid**
-- Placing his three textures: the dry board (training week, match night), the Vespa detail (Chapter 3 or the training week), the battery (Chapter 2).
+- Placing his three textures: the dry bodyboard (Weight's fortnight, match night), the Vespa detail (Vespa or Weight), the battery (Panenka).
 
 **Lines to write together**
-- Ahmed's doorway line: he repeats his own uphill lesson and finishes it with "Downhill, I never learned." Final wording at drafting.
-- Chapter 5, the right back: "still turning when the cross came in," or similar.
+- Ahmed's doorway line in Phantom: he repeats his own uphill lesson and finishes it with "Downhill, I never learned." Final wording at drafting.
+- The right back in Weight: show the equalizer from outside Youssef, for example "still turning when the cross came in." Final wording at drafting.
 
 **Setups the ending needs**
-- Chapter 1's added sentence, *At home, no one said it.* Exact wording at drafting.
+- Simo's home silence: "No one talked about what happened after" becomes *At home, no one said it.* Exact wording at drafting.
 - The metered father-son touches across the arc, ending in the hand at the doorway.
 
 **Prose polish (for the rewrite)**
 - Professor K: Youssef's thoughts sometimes sound older than twelve. Check the voice line by line.
-- The phrase people said when they paid into the mosque, to replace "Great Hope Watching Over Us." Draft with Chapter 7.
-- The Chapter 3 hand flinch, made physical enough to carry to Chapter 7.
+- The phrase people said when they paid into the mosque, to replace "Great Hope Watching Over Us." Draft with Phantom. It may be invented.
+- The hand flinch in Vespa, made physical enough to carry to Phantom.
 
-**Expansion candidates (if it becomes a novella)**
-- Chapters 1–3 front-load setup (cold read). Deciding short story or novella decides how to fix it.
-- Fatima's night scene at the cedar chest. Placement open.
-- The Grand Stade lunch.
-- More room for the training week and the first half of the match.
-- Bilal arrives properly.
+**Workflow**
+- Who holds the pen for Sparrow: asked once, when drafting starts.

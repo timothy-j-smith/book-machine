@@ -22,7 +22,7 @@
 - **What Youssef knows of his father** — the medina legend of The Phantom, nothing more. Born after 2010. At home no one says the name.
 - **Badr, Luca, Akesbi** — Raja academy. Akesbi = The Sparrow. Played with Ahmed.
 - **Hadj Brahim** — rug merchant. Elder. Father figure and mentor to Ahmed. Remembers him as The Phantom. Quietly tries to coax him out of his shell. Has a cane. Knew Ahmed since Ahmed was a boy, not since they were boys.
-- **The stranger on the bench** — a coastal elder, fisherman or port man, weathered by wind, sun and salt. Alone. No cane. Not Hadj Brahim. Sees the boy, not the family. Chants "Qit sihri." Appears once, briefly, in the match crowd.
+- **The stranger on the bench** — a coastal elder, fisherman or port man, weathered by wind, sun and salt. Alone. No cane. Not Hadj Brahim. Sees the boy, not the family. Chants "Qit sihri." Appears once more, in Sparrow after the final whistle: "Qit sihri," said once from the bleachers, nobody joins, and the face is lost in the crowd.
 - **The gardien** — Hay Mohammadi turf. The middle rung, between the free streets and the clubs. Lets the boys play after hours and leaves the lights on. At the match he is glimpsed at halftime by the Y in his shirt, never named.
 - **Cats:** Simo (angles), Hamza (anticipation), Lalla (speed as absence)
 
@@ -30,7 +30,7 @@
 
 - **Rue de la Douane** — the medina alley. Slopes toward the sea and the mosque. The family's apartment is above the merchants. Front doorway is the book's first and last threshold.
 - **Hassan II Mosque** — the spine. Built 1986–1993. Paid for by a national public subscription. The family paid in. They have not walked the esplanade in years, though the minaret fills their window. Ain Diab's road runs past it. That is why Ahmed recoils when the beach is named, not because of the beach itself.
-- **Cedar chest** — in Ahmed's second-floor bedroom. Holds Ahmed's red national-team jersey, number 10, the one he stopped playing in. Gold embroidered emblem. A green five-pointed star, the one from the flag, is what marks it as the country and not Wydad or Raja. Can also hold the mosque-subscription receipt. In Chapter 7 Youssef sees only the green star in the gold before the cloth is folded over it. He never sees the 10.
+- **Cedar chest** — in Ahmed's second-floor bedroom. Holds Ahmed's red national-team jersey, number 10, the one he stopped playing in. Gold embroidered emblem. A green five-pointed star, the one from the flag, is what marks it as the country and not Wydad or Raja. Can also hold the mosque-subscription receipt. In Phantom Youssef sees only the green star in the gold before the cloth is folded over it. He never sees the 10.
 - **The concrete pitch** — public park, beside the fence. Bleached, cracked, futsal-sized. Weathered goal frames with no nets, across the fence from Raja's wrinkle-free nets.
 - **The match** — Raja training grounds, beside the public park and its cracked concrete pitch. Bleachers along the pitch. Not a separate stadium. The chain-link fence is the class line. Ahmed watches from the concrete side.
 

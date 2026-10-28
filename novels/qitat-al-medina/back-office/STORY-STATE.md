@@ -6,7 +6,7 @@ The partner rewrites this so a new chat can sit down without starting over.
 
 ## True now
 
-The book is the first movement of a novella, told from Youssef's point of view. Seven chapters are on the page. The chapter count is open. The goal is the best story and prose, as a learning exercise, not a finished short story.
+The form is settled: a long story, about 12,000–15,000 words, told from Youssef's point of view. It grows only if the drafted pages earn it. Once Hand is written the book has eight chapters: Simo, Panenka, Vespa, Jellies, Hand, Weight, Sparrow, Phantom. Seven are on the page now, in the old draft, about 5,600 words. The goal is the best story and prose, as a learning exercise.
 
 Ahmed Benali is both a cobblestone boy and a former national-team player. He was born in 1986, watched the mosque finished at seven, and was twenty-four in the 2010 qualifying failure. The federation froze him out. He now pours cement at the Grand Stade for the 2030 World Cup he never reached. His first ground was the cobblestones, the same as Youssef's. He did not learn on the rocks below the mosque.
 
@@ -24,33 +24,33 @@ Youssef will play for Morocco in 2030. That is the dream on the page.
 
 The disallowed goal will be rewritten as a wall pass, clearly onside, then a flag. Youssef will lunge on the restart. Luca makes a meal of it just outside the box. Badr scores the free kick, 3–2.
 
-Chapter 7 will end at the front doorway: "Come with me," the minaret down the alley, "But we cracked," the downhill confession, the hands. No ball touch. Ahmed will reveal he was at the match by knowing something only a witness could know.
+Phantom will end at the front doorway: "Come with me," the minaret down the alley, "But we cracked," the downhill confession, the hands. No ball touch. Ahmed will reveal he was at the match by knowing something only a witness could know.
 
 The cats return as unnamed moves in the match. Simo is named at halftime. Simo closes the book.
 
-Badr's "It counted" stays. "The Phantom" in Chapter 7 is the son naming the father.
+Badr's "It counted" stays. "The Phantom" in the chapter Phantom is the son naming the father.
 
-Fatima gets a night scene in the middle of the novella. Youssef, awake behind the curtain, sees her press Ahmed's hand down over something on his knees. Chapter 7 shows him what it was.
+Hand is a new chapter between Jellies and Weight: the Grand Stade lunch by day, then white space, then Fatima's night scene. Youssef, awake behind the curtain, sees her press Ahmed's hand down over something folded on his knees. Phantom shows him what it was. The day gives the father his middle. A stray cat crosses at the gate, in one sentence, seen and not interpreted. The training fortnight is a compressed passage at the start of Weight: mornings on the beach, evenings on the turf, no concrete, carved out of ordinary life. Khalid's board is a bodyboard. Khalid's Vespa takes Youssef and Omar there. Only Youssef crosses the fence. Ahmed speaks two lines, the curing-concrete line and "Play," and throws the laborers' ball back by hand.
 
 Secondary characters each get a beginning, middle, and end, kept small:
 - **Bilal** is the keeper: the concrete pitch, the beach dives, and fingertips on Badr's free kick.
 - **Khalid** is the bridge to the wider world. Looking after the boys costs him waves (a dry board), Vespa wear, and phone battery.
-- **Aicha** has her mother's eyes and grows into her mother's understanding. Her last beat is a look toward the stairs in Chapter 7.
-- **Chams-Eddine** plays the wall pass in Chapter 6.
+- **Aicha** has her mother's eyes and grows into her mother's understanding. Her last beat is a look toward the stairs in Phantom.
+- **Chams-Eddine** plays the wall pass in Sparrow.
 - **Younes** gets one freestyle moment in the comeback.
 
 The details are in the second-pass notes, under "Parked for after the pass."
 
-Order of work: finish the structural pass through the seven chapters, then plan the expansion, then rewrite the prose.
+Youssef's change: from loving a legend to holding a man. The lunge is cold, deaf anger, not malice: he chases alone and ignores Omar's "hold." Coming home, he carries the lunge more than the flag. On the Vespa the replay moves forward (his foot corrects into Simo's quarter-turn) where his father's froze. "Downhill, I never learned" recognizes what the boy has begun.
+
+Order of work: the structural pass and the plan are done. Next is the prose rewrite, starting with Sparrow and working backward to Simo, only when Student T says write. The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`.
 
 ## Open
 
-A better phrase than "Great Hope Watching Over Us" for what people said when they paid into the mosque. Draft when Chapter 7 is written.
-
-Which new scenes the novella adds (the Grand Stade, the chest at night seen earlier, and the rest). Direction B is locked. The scenes are not.
+A better phrase than "Great Hope Watching Over Us" for what people said when they paid into the mosque. Draft when Phantom is rewritten. It may be invented.
 
 ## Last sitting
 
-2026-10-27. The structural pass is finished. The free kick was settled (Luca's dive, Badr's strike). The character audit gave every secondary character a small arc. Two dropped threads were answered: the cold water through Khalid, and the Grand Stade through the cement-grey cap. What Youssef knows about his father was settled as a discovery in four steps. Everything left is parked in the second-pass notes. No chapter was rewritten. Next: decide short story or novella.
+2026-10-27, all day. Night: the structural pass finished (the free kick, the character audit, the cold water, the cement-grey cap, what Youssef knows). Day: the form settled as a long story; Hand placed between Jellies and Weight; the training fortnight, Chapter 1's braid, and Panenka's rebuild planned; Youssef's change, the lunge, and the aftermath locked; the rewrite plan written. Paperwork patched to match the plan. No chapter was rewritten.
 
 2026-10-24. Cold read, then Book Bible, then the long notes, then a second pass. Student T chose to expand the book (direction B) and answered the second-pass questions one at a time. The full list of decisions is in `back-office/READS/2026-10-23-second-pass.md`, under "What the author decided." No chapter was rewritten. The sitting is on GitHub.

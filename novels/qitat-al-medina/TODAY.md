@@ -1,9 +1,8 @@
 # Today
 
 **Novel:** Qitat al-Medina
-**Sitting:** 2026-10-27 closed. The structural pass through all seven chapters is finished. No chapter rewritten.
-**Form:** Open. Short story or novella is the next decision.
+**Form:** A long story, about 12,000–15,000 words. Eight chapters once Hand is written.
 
-Everything settled is under "What the author decided" in `back-office/READS/2026-10-23-second-pass.md`. Everything left is under "Parked for after the pass" in the same file. Do not reopen settled choices unless he asks.
+One job: decide who holds the pen for Sparrow. Then draft Sparrow only when he says write.
 
-One job when you sit down: regroup on the form. Keep it a short story and tighten, or expand into a novella. Walk the parked list with him, since most of it depends on that answer. Do not change any chapter until he says to write.
+The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`. Every decision is under "What the author decided" in `back-office/READS/2026-10-23-second-pass.md`. The stale parked items have been corrected, and the plan wins over that list.
