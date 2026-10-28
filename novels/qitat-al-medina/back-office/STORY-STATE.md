@@ -24,7 +24,7 @@ Youssef will play for Morocco in 2030. That is the dream on the page.
 
 The disallowed goal will be rewritten as a wall pass, clearly onside, then a flag. Youssef will lunge on the restart. Luca makes a meal of it just outside the box. Badr scores the free kick, 3–2.
 
-Phantom will end at the front doorway: "Come with me," the minaret down the alley, "But we cracked," the downhill confession, the hands. No ball touch. Ahmed will reveal he was at the match by knowing something only a witness could know.
+Phantom will end at the front doorway: "Come with me," the minaret down the alley, "But we cracked," the downhill confession, the hands. No ball touch. Ahmed will reveal he was at the match by knowing something only a witness could know: "You waited for his knees." (Youssef held the lift until the keeper's knees bent.)
 
 The cats return as unnamed moves in the match. Simo is named at halftime. Simo closes the book.
 

@@ -11,7 +11,7 @@ Book order once "Hand" is written: Simo, Panenka, Vespa, Jellies, **Hand (new)**
 Work backward from the climax. Each payoff is written first, then the setups are planted to fit what the payoff actually turned out to be on the page.
 
 1. **Sparrow** (current ch06):
-   - Chams-Eddine's wall pass and the goal, then the flag.
+   - Chams-Eddine's wall pass and the goal, then the flag. Plant for Phantom: Youssef holds the ball until the keeper's knees bend, then lifts it. One clause, seen and not explained.
    - Youssef goes cold and deaf. Omar's "hold" goes unheeded.
    - The lunge, Luca's dive, Badr's free kick off Bilal's fingertips, the whistle.
    - After the whistle, Youssef barefoot on the turf: the coastal stranger from Jellies says "Qit sihri" once from the bleachers, nobody joins, and the face is lost in the crowd. Kept a beat apart from Hadj Brahim's cane.
@@ -19,11 +19,13 @@ Work backward from the climax. Each payoff is written first, then the setups are
    - Hadj Brahim's glance, and the cement-grey cap beyond the fence.
 2. **Weight** (current ch05):
    - The training fortnight: mornings at Ain Diab, evenings under the gardien's lights, Bilal's first dive, Khalid's dry board, one or two of life's interruptions.
+   - The boots: the French tourist (unnamed) at the spice merchant's door with the PHANTOM ELITE box, "Pour le chat magique." No sentence about how he heard.
    - The first half at 2–0.
    - Halftime: the gardien's Y-wrinkled shirt, Simo named.
-   - The comeback: Younes's moment, Bilal's one save, the cat moves unnamed, Yazid's equalizer.
+   - The comeback: Karim's goal (the first), Younes's moment, Bilal's one save, the cat moves unnamed, then Isklander's speed past the right back (shown from outside Youssef) for Yazid's equalizer.
 3. **Phantom** (current ch07), written while the match is fresh:
    - The Vespa replay: his foot, then the road.
+   - The witness line replaces "They say you scored from thirty meters": Ahmed says, flatly, "You waited for his knees." Nothing about the flag, the lunge, elegance, or feeling. Youssef realizes the cap was his father. Ahmed sees the inheritance; he names only the mechanics.
    - Aicha's look toward the stairs.
    - The second-floor bedroom and the green star.
    - "Come with me," the doorway, "The Phantom," "But we cracked," "Downhill, I never learned," the hands.
@@ -39,6 +41,7 @@ Work backward from the climax. Each payoff is written first, then the setups are
 6. **Vespa** (current ch03):
    - The birthday, "Nothing happened," the flinch and Aicha's eyes.
    - The bodyboard, the heat, the awkwardness until the ball settles it.
+   - Karim, the coastal boys' leader: "You're from the old city," the game, then "Real goals. You should come back. Bring your medina."
    - Khalid shivering and laughing.
 7. **Panenka** (current ch02), rebuilt as a present scene:
    - The red battery.

@@ -201,7 +201,7 @@ Chapter 5: Weight
 
 They did not own boots.
 
-The first week was a scramble — borrowing, begging, trading favors. One pair of boots arrived from the French tourist, who had heard about the match through the medina's nervous system of gossip and appeared at the spice merchant's door with a Nike box. The box was a reddish-orange with the words PHANTOM ELITE.
+The first week was a scramble — borrowing, begging, trading favors. One pair of boots arrived from the French tourist, who appeared at the spice merchant's door with a Nike box. The box was a reddish-orange with the words PHANTOM ELITE.
 
 "Pour le chat magique," he said.
 

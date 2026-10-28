@@ -32,11 +32,11 @@ Then a straight read-through of the whole book, a continuity check, and a polish
 ### 1. Simo
 
 - File: ch01-simo.md
-- Does: The cats teach. The alley is the pitch. Ahmed is named The Phantom by the men outside the café. Add: *At home, no one said it.* His one lesson: practice uphill.
+- Does: Braided, not cut. Open on Simo and "He never lunged." Hamza and Lalla taught in action during the alley game, one behavior each, not in profile paragraphs. Cut the "This was the pitch" catalogue. Protect the pair: Simo "neither the fastest nor the strongest" and The Phantom "not because he was fast"; never let them point at each other. "No one talked about what happened after" becomes the home silence (*At home, no one said it*). His one lesson: practice uphill. Isklander's line: "You move like one of them." About 750–800 words, ball moving in the first third.
 - Eyes: Youssef
 - Where: Rue de la Douane, the apartment, the alley
 - Tension:
-- Status: on the page
+- Status: on the page, old draft; braid decided; written LAST in the rewrite
 
 ### 2. Panenka
 

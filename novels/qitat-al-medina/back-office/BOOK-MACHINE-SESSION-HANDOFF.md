@@ -57,7 +57,7 @@ Settled story facts the next chat must not reopen unless he asks:
 - Youssef's point of view. Direction B: expand, do not stay a short story.
 - The goal is a wall pass with Chams-Eddine, clearly onside, then a wrong flag.
 - Youssef goes cold and deaf, ignores Omar's "hold," and lunges. Anger without malice. Luca sells it. Badr's free kick, off Bilal's fingertips, makes it 3–2.
-- Ahmed was at the match, unseen, on the concrete side of the fence. Youssef glimpses a cement-grey cap and does not know. He learns in Phantom, because Ahmed knows something only a witness could know.
+- Ahmed was at the match, unseen, on the concrete side of the fence. Youssef glimpses a cement-grey cap and does not know. He learns in Phantom, because Ahmed knows something only a witness could know: "You waited for his knees." Sparrow plants the keeper's knees bending before the lift.
 - Chapter 7 ends at the front doorway. "Come with me." "The Phantom" is the son naming the father. "But we cracked." "Downhill, I never learned." The son takes the hand. No ball touch.
 - The courtyard line on the page is the true one: "They broke ground on the mosque the year I was born." Not "they finished it the year I was born."
 - Hand is the father's middle: Grand Stade by day, Fatima's night scene after white space. The cat at the gate is a stray, not Simo.
@@ -78,7 +78,7 @@ Read `PLAN-REVISIONS-AND-FILE-UPDATES.md` before telling anyone to patch files. 
 - "Great Hope Watching Over Us" is really in Chapter 7. Replace it when Phantom is drafted, not before.
 - "Something the academy's right back had never seen" is really in Chapter 5. Rewrite it from outside when Weight is drafted. "Still turning when the cross came in" is an example, not a line on the page.
 - Who holds the pen for Sparrow is not a story fact. Ask it once in the prose chat.
-- Four people are in the character audit and missing from the rewrite beats: the stranger at the match, Isklander, the French tourist, and Karim. Ask Student T. Do not decide for him.
+- Resolved Oct 28: the four audit people are in the rewrite beats. The coastal stranger says "Qit sihri" once after the whistle in Sparrow. Isklander assists Yazid's equalizer in Weight. The French tourist stays, unnamed, and the gossip sentence is cut. Karim invites in Vespa and scores first in Weight.
 
 ## Starting state for this new architect chat
 

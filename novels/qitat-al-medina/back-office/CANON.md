@@ -16,7 +16,8 @@
 - **Ahmed Benali** — The Phantom / Le Fantôme. Father. A cobblestone boy who became a national-team player, then was frozen out after 2010. Cement on his hands now. Pours the Grand Stade. First ground: the cobblestones, the same as his son's. Not the rocks below the mosque.
 - **Fatima** — mother
 - **Omar, Khalid** — street, Vespa. Khalid is Omar's older brother, a beach person, not a footballer. Protective, proud, never competes. The phone and the Vespa are his. He body-surfs.
-- **Karim, Younes** — coast. Younes is the freestyler.
+- **The French tourist** — never named; Youssef never learns his name. He gave Youssef the Barcelona jersey (Messi on the back) after stopping to watch an alley game two years before Simo. In Weight he appears at the spice merchant's door with the PHANTOM ELITE box: "Pour le chat magique." No explanation of how he heard.
+- **Karim, Younes** — coast. Karim leads the coastal boys: tall, thin as rope, plays with the ocean's rhythm. He invites the medina ("Bring your medina"), brings the coast to the concrete, and scores the first comeback goal. Younes is the freestyler.
 - **Isklander, Chams-Eddine, Yazid, Bilal** — medina side. Bilal is the keeper. The medina has no keepers, so he first keeps goal on the concrete pitch, standing up, and first dives on the sand. Formerly Anass.
 - **Aicha** — younger sister, Fatima's eyes, growing into her mother's quiet understanding.
 - **What Youssef knows of his father** — the medina legend of The Phantom, nothing more. Born after 2010. At home no one says the name.
