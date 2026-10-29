@@ -3,7 +3,7 @@
 Date: 2026-10-23
 Kind: Second pass, straight
 Compared against: `2026-10-23-cold-read.md`
-Read for this pass: `dump/Book_Bible_Qitat_al-Medina.md` (181 lines) and `dump/Qitat al Medina new Notes.md` (787 lines, read in full; the last line is the note about the Arabic title on the title page). The chapters in `chapters/` were the baseline.
+Read for this pass: `garage/Book_Bible_Qitat_al-Medina.md` (181 lines) and `garage/Qitat al Medina new Notes.md` (787 lines, read in full; the last line is the note about the Arabic title on the title page). The chapters in `chapters/` were the baseline. The folder was named `dump/` on the day of the read. It is `garage/` now.
 
 Reference material is treated as reference, not gospel. Where it differs from the chapters, I say so, and I say which choice I think serves the story better.
 

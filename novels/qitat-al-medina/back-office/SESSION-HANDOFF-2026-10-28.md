@@ -49,7 +49,7 @@ Point of view is close third on Youssef, age eleven turning twelve. Show, don't 
 
 ## Reading roadmap for the next chat
 
-Read these in this order. Do not open `dump/` or `drafts/` unless Student T asks.
+Read these in this order. Do not open `garage/` or `drafts/` unless Student T asks.
 
 1. `START_HERE_AI.md` (method folder)
 2. `INDEX.md` (method folder)
@@ -93,7 +93,7 @@ I have put days of intensive work into this, many of them twenty-hour days: buil
 14. `chapters/ch06-sparrow.md`
 15. `chapters/ch05-weight.md` and `chapters/ch07-phantom.md`
 
-Do not open `dump/` or `drafts/` unless I ask. Do not change any chapter until I say write. Do not commit or push without my explicit yes.
+Do not open `garage/` or `drafts/` unless I ask. Do not change any chapter until I say write. Do not commit or push without my explicit yes.
 
 In your first reply, confirm that you have read every one of these files in full, at that level of detail, and that you are ready to rewrite Sparrow. Prove it in your own words, without quoting the handoff back to me:
 

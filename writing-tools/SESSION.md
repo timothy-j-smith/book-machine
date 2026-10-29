@@ -52,11 +52,11 @@ Then one at a time, only the ones that fit this book:
 
 Do not show this as a list. After the last useful question, summarize what you caught. Look is a report, not a rewrite. Do not change the chapter because you preferred a different sentence. Ask, then wait.
 
-When you look, read the current chapter and the canon. Do not browse `dump/`, old draft numbers, or abandoned versions unless he asks. Those average his voice and bring back cuts.
+When you look, read the current chapter and the canon. Do not browse `garage/`, old draft numbers, or abandoned versions unless he asks. Those average his voice and bring back cuts.
 
 ## End
 
-You are the operations person. See `START_HERE_AI.md`. The author should hear one plain report and find a new `TODAY.md`. He should not get a checklist.
+When he says “I’m done for today,” the close is required. You are the operations person. See `START_HERE_AI.md`. The author should hear one plain report and find a new `TODAY.md`. He should not get a checklist. Do not end the chat with the decisions still only in the transcript.
 
 If a fact in canon changed this sitting, list the chapters that used the old fact, and why. He decides what to rewrite. Do not silently fix them.
 
@@ -76,6 +76,6 @@ When he asks for a change in a chapter, edit that file in `chapters/`. He review
 
 When he says “keep this draft,” copy `chapters/` to the next number in `drafts/` (`02`, then `03`). Do not overwrite an older number. Leave `chapters/` as the pages he keeps writing. Offer a GitHub snapshot of that number when he wants the copy off the laptop. Push only after he says yes. Do not make him hunt through Git to find a chapter.
 
-## Dump
+## Garage
 
-Any sitting may include a dump. Raw notes and spare prose go in `dump/`. Passages from books he owns go in `dump/study/`, labeled with author and title. See `STUDY.md`. Do not scold. Do not file those sentences into `chapters/`. File his own decisions into canon, the map, the vault, or a chapter only when he says it is the book.
+Any sitting may park raw material. Raw notes and spare prose go in `garage/`. Passages from books he owns go in `garage/study/`, labeled with author and title. See `STUDY.md`. Do not scold. Do not file those sentences into `chapters/`. File his own decisions into canon, the map, the vault, or a chapter only when he says it is the book.

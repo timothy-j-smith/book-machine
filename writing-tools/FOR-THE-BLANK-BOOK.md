@@ -11,3 +11,4 @@ One line each: the date, the novel it came from, what should change, and why.
 ## Done
 
 - 2026-10-24: added `back-office/READS/` so every new book has a place for full reads (see `READER.md`). Came from Qitat al-Medina.
+- 2026-10-29: renamed `dump/` to `garage/`. Parked material, not discarded. The spoken line is *Park this.* Came from the architect sitting.

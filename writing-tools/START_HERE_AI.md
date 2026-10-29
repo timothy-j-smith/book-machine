@@ -46,7 +46,7 @@ If the pages and the paperwork disagree, **the chapters win** until the author s
 3. Refresh `back-office/STORY-STATE.md`. If someone learned a fact, add a row to `WHO-KNOWS.md`.
 4. Patch canon and story map only where the story moved. Propose the patch; if the sitting already decided, just do it and report. If a fact changed, list the chapters that used the old one. He decides what to rewrite.
 5. Rewrite `TODAY.md` for the next time he sits down.
-6. Write a short note in `back-office/SESSION-NOTES/` dated today, if anything worth keeping was said.
+6. Write a short note in `back-office/SESSION-NOTES/` dated today. This note is required. It records what was decided. It does not replace TODAY.md.
 7. Offer a stitch of `back-office/MANUSCRIPT.md` from confirmed chapters when that helps him read straight through.
 8. Show him what changed this sitting, file by file, in plain words. List changes to the method folder separately, under “This changes the machine for every book.” Ask: “Save this to GitHub?” Commit and push only after he says yes. A yes covers this one save, nothing later. Then say “Pushed.” If the push fails, say that plainly and what it needs. If he says no or not yet, leave the changes on the laptop and say so in `TODAY.md`.
 
@@ -59,8 +59,9 @@ No checklist for the author.
 - Draft four chapters in parallel on a book he cares about.
 - Overwrite his genre, voice, characters, or book with a method example.
 - Write or edit his pages without See What I See.
+- Change a file in `chapters/` or `drafts/` unless he told you, in this sitting, to write or to edit that chapter. Look, intake, and a read are reports. A sentence you prefer is not a license to change the page.
 - Rewrite a chapter from “edit this” without a report first. Look is a report. He decides.
-- Browse `dump/` or old draft numbers when looking, unless he asks.
+- Browse `garage/` or old draft numbers when looking, unless he asks.
 - Let a character know a fact they have not earned. See `WHO-KNOWS.md`.
 - Close every question in a scene the Professor drafts. Leave the door open.
 - Treat a study passage as his prose. See `STUDY.md`. Passages from books he owns are private education, labeled study, and allowed in the repo. Do not scold. Teach the move in his own sentences. Do not file those sentences into `chapters/`.

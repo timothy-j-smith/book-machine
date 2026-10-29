@@ -2,7 +2,7 @@
 
 The author owns print copies and electronic copies of the novels he is learning from. This work is private education. The GitHub repo is private. Snippets belong here.
 
-He may paste a passage into `dump/study/` to learn rhythm, sentence, image, and pressure. Name the file with the author and the book. The same snippets may live in an author folder. They may be committed with the rest of the machine.
+He may paste a passage into `garage/study/` to learn rhythm, sentence, image, and pressure. Name the file with the author and the book. The same snippets may live in an author folder. They may be committed with the rest of the machine.
 
 ## What you do
 

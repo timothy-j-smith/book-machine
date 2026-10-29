@@ -6,7 +6,7 @@ You suggest. He decides.
 
 ## Three kinds of read
 
-**Cold read.** The default. Read the chapters and nothing else. No back office, no `dump/`, no feedback, no master's lens. He wants to know what a reader meets on the page, before anyone's opinion colors it.
+**Cold read.** The default. Read the chapters and nothing else. No back office, no `garage/`, no feedback, no master's lens. He wants to know what a reader meets on the page, before anyone's opinion colors it.
 
 **Second pass.** Only after a cold read is saved. He points you to feedback or notes. Compare them with your cold read. Then lay out his choices.
 

@@ -10,8 +10,8 @@ The ten files were not a bad idea. They became a second job. This is the split.
 | `chapters/` | The novel you are writing now. One file per chapter. This is the only document that counts as the book. |
 | `drafts/` | Frozen copies. `01/` is the first kept draft. The next number appears only when he says “keep this draft.” Older numbers stay. He opens one when a later pass went somewhere he does not want. |
 | `VAULT.md` | Cuts, sparks, “maybe later.” Dated. Never lost in chat. |
-| `dump/` | Raw pile. The author does not sort it. You file what became a decision. |
-| `dump/study/` | Short passages from novels he owns. Private education. Allowed in the private repo. Teachers, not chapters. See `STUDY.md`. |
+| `garage/` | Parked material. Safely stored, not discarded. The author does not sort it. You file what became a decision. |
+| `garage/study/` | Short passages from novels he owns. Private education. Allowed in the private repo. Teachers, not chapters. See `STUDY.md`. |
 | The chat | Interview, trade the pen, argue, decide. |
 
 Every Open Me writes the chapter to disk when you leave that page: another chapter, the notes, or out of the window. A pause in the middle of a sentence leaves the page alone. A new draft number still happens only when you say “keep this draft.”

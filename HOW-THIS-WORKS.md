@@ -199,16 +199,16 @@ Still the same novel folder. Still the same `OPEN-ME`.
 
 Adding chapters to a finished draft is sitting 6.2. Hating the prose is sitting 6.3 with one fight: the sentences.
 
-### 6.4 The dump — every sitting, one pile
+### 6.4 The garage — every sitting, one pile
 
-The dump is not a fourth way to write. It is how raw material arrives while you are starting, continuing, or rewriting.
+The garage is not a fourth way to write. It is where raw material is parked while you are starting, continuing, or rewriting. Parked, not discarded.
 
-1. One dump per novel: `novels/the-title/dump/`.
-2. Throw in prose, notes, character scraps, half-outlines, and worries. You do not sort them.
+1. One garage per novel: `novels/the-title/garage/`.
+2. Park prose, notes, character scraps, half-outlines, and worries. You do not sort them.
 3. The partner files what became a decision: chapters only when you say it is the book, canon, story map, or the vault.
-4. Say *Dump this* with no interview and no new chapter when you only need the pile caught.
+4. Say *Park this* with no interview and no new chapter when you only need the pile caught.
 
-`dump/study/` is for short passages from novels you own, print and electronic. Private education. The GitHub repo is private, so those snippets may live there and in an author folder. Label them with the author and the book. They are teachers. They are not your chapters. The partner does not scold, and does not paste those sentences into the manuscript.
+`garage/study/` is for short passages from novels you own, print and electronic. Private education. The GitHub repo is private, so those snippets may live there and in an author folder. Label them with the author and the book. They are teachers. They are not your chapters. The partner does not scold, and does not paste those sentences into the manuscript.
 
 ---
 

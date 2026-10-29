@@ -19,7 +19,7 @@ Read only what the job needs.
 | Names, world, rules | Novel `back-office/CANON.md` |
 | Acts and chapter beats | Novel `back-office/STORY-MAP.md` |
 | How the sentences should feel | Novel `back-office/VOICE.md` — prefer evidence from *his* pages |
-| A passage from a novel he owns, for rhythm | `STUDY.md`, then that novel’s `dump/study/` |
+| A passage from a novel he owns, for rhythm | `STUDY.md`, then that novel’s `garage/study/` |
 | The book, in order | Novel `chapters/`, or `back-office/MANUSCRIPT.md` if stitched |
 
 Do not load Compass, HyperAgent dumps, or the old ten-file hub unless the author points you there to *bring a book in*.

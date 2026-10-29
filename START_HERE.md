@@ -34,8 +34,8 @@ The blank book is `blank-book/`. It already has the tabs (Today, chapters, vault
 - *New novel. Interview me.*
 - *Continuing [title].*
 - *This draft needs work. Intake it.*
-- *Dump this.*
-- *This is study.* Name the author and the book. It goes in `dump/study/`.
+- *Park this.*
+- *This is study.* Name the author and the book. It goes in `garage/study/`.
 - *Vault this.*
 - *I’m done for today.*
 

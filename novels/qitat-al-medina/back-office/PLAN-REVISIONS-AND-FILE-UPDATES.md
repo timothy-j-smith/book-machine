@@ -86,7 +86,7 @@ After the patches, one job only: decide who holds the pen for Sparrow, then draf
 - `chapters/`. No prose changes in this patch.
 - `drafts/01/`.
 - `VOICE.md`, except to leave it empty until Student T names a lead master. Do not write a style manifesto.
-- The old book bible in `dump/`. Its "locked" and "finished" labels are not authority. Chapter 6 is Sparrow, not Tea. The courtyard line on the page is the true one: "They broke ground on the mosque the year I was born."
+- The old book bible in `garage/`. Its "locked" and "finished" labels are not authority. Chapter 6 is Sparrow, not Tea. The courtyard line on the page is the true one: "They broke ground on the mosque the year I was born."
 
 ## Four people the plan can lose
 
