@@ -8,6 +8,7 @@ import os
 import re
 import subprocess
 import sys
+import unicodedata
 import webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -24,8 +25,8 @@ CHAPTER_FILE_RE = re.compile(r"^ch\d+", re.IGNORECASE)
 
 
 def slugify(title: str) -> str:
-    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-    return slug
+    plain = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", plain).strip("-")
 
 
 def novel_dirs() -> list[Path]:

@@ -12,7 +12,11 @@ if [[ -z "$TITLE" ]]; then
   exit 1
 fi
 
-SLUG="$(printf '%s' "$TITLE" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//')"
+SLUG="$(python3 -c '
+import re, sys, unicodedata
+plain = unicodedata.normalize("NFKD", sys.argv[1]).encode("ascii", "ignore").decode().lower()
+print(re.sub(r"[^a-z0-9]+", "-", plain).strip("-"))
+' "$TITLE")"
 
 if [[ -z "$SLUG" ]]; then
   echo "Could not make a folder name from: $TITLE"
@@ -20,6 +24,8 @@ if [[ -z "$SLUG" ]]; then
 fi
 
 DEST="$ROOT/novels/$SLUG"
+JSON_TITLE="${TITLE//\\/\\\\}"
+JSON_TITLE="${JSON_TITLE//\"/\\\"}"
 
 if [[ -e "$DEST" ]]; then
   echo "Already exists: $DEST"
@@ -60,7 +66,7 @@ cat > "$DEST/OPEN-ME.code-workspace" <<EOF
       "path": "../../writing-tools"
     },
     {
-      "name": "$TITLE",
+      "name": "$JSON_TITLE",
       "path": "."
     }
   ],
