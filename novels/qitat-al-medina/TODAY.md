@@ -5,7 +5,7 @@
 
 Sparrow is rewritten and kept. Line edits wait for the final polish.
 
-Next job: **Weight**. Before anyone writes, the Professor puts Weight's beat list in chat (one screen), Student T changes it, and the open details are settled one question at a time. Then ask once who holds the pen.
+Next job: **Weight**. Professor Dickey's version is drafted and revised but not kept. Student T reads `back-office/TEMP/weight-v3-eleven-players.md` (eleven boys from the first night, no brother). Ask what stood out, one question at a time. If he keeps it: it goes to `chapters/ch05-weight.md`, its See What I See goes to `SEE-WHAT-I-SEE/`, and the Weight files in `TEMP/` are deleted. Then check Jellies against "three coastal boys" and add the match clock to CANON.
 
 Weight has to end at 2–2 with four minutes left, so Sparrow's first line still works.
 

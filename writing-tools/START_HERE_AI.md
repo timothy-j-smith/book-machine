@@ -41,7 +41,7 @@ If the pages and the paperwork disagree, **the chapters win** until the author s
 
 ## End of every sitting (you do this)
 
-1. Save chapter files if you drafted.
+1. Save chapter files if you drafted. If he kept a version from `back-office/TEMP/`, delete that chapter's files there. An unfinished pass stays in `TEMP/` and goes in `TODAY.md`.
 2. Vault what he asked to keep.
 3. Refresh `back-office/STORY-STATE.md`. If someone learned a fact, add a row to `WHO-KNOWS.md`.
 4. Patch canon and story map only where the story moved. Propose the patch; if the sitting already decided, just do it and report. If a fact changed, list the chapters that used the old one. He decides what to rewrite.
@@ -61,7 +61,8 @@ No checklist for the author.
 - Write or edit his pages without See What I See.
 - Change a file in `chapters/` or `drafts/` unless he told you, in this sitting, to write or to edit that chapter. Look, intake, and a read are reports. A sentence you prefer is not a license to change the page.
 - Rewrite a chapter from “edit this” without a report first. Look is a report. He decides.
-- Browse `garage/` or old draft numbers when looking, unless he asks.
+- Browse `garage/`, old draft numbers, or `back-office/TEMP/` when looking, unless he asks.
+- Put a work-in-progress version in `SEE-WHAT-I-SEE/` or `chapters/`. It goes in `back-office/TEMP/` until he keeps it.
 - Let a character know a fact they have not earned. See `WHO-KNOWS.md`.
 - Close every question in a scene the Professor drafts. Leave the door open.
 - Treat a study passage as his prose. See `STUDY.md`. Passages from books he owns are private education, labeled study, and allowed in the repo. Do not scold. Teach the move in his own sentences. Do not file those sentences into `chapters/`.

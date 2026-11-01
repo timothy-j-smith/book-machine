@@ -27,6 +27,7 @@ if [[ -e "$DEST" ]]; then
 fi
 
 cp -R "$ROOT/blank-book" "$DEST"
+chmod -R u+w "$DEST"
 
 cat > "$DEST/TODAY.md" <<EOF
 # Today

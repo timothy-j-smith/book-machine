@@ -78,10 +78,23 @@ Then a straight read-through of the whole book, a continuity check, and a polish
 
 - File: ch05-weight.md
 - Does: Two weeks, carved out of ordinary life (one or two interruptions, such as errands or a father's stall). Boots. Mornings at Ain Diab, evenings on the Hay Mohammadi turf, where the gardien leaves the lights on after hours. No concrete. Bilal dives for the first time on the sand. Khalid's bodyboard stays dry. In the match, "before Bilal set his feet" (the concrete habit), then one second-half save that holds the score for the comeback. The Friday match stays at the training grounds, with bleachers. First half 2–0, then their mix, 2–2. Cut the prickly-pear explanation. Show Hamza and Lalla as unnamed moves. POV slips to fix. The gardien is glimpsed at halftime by the Y in his shirt. The phone teenager does not appear here.
+- Agreed 2026-10-31 (Student T, beat review):
+  - The boots are beautiful and a little too small; he squeezes his toes in anyway.
+  - The training fortnight gets more room, not less. Every interruption is something Youssef sees (Yazid at his father's stall only if Youssef passes it).
+  - The venue: Raja's training complex, four or five fields; the match field is the best one, fenced, with seating. It must stay in sight of the fence and the concrete pitch (Ahmed watches from there; Sparrow's cap). First time the boys cross the fence: the arrival seen through Youssef, awe and overwhelm, and the ground in detail (what is perfect, what is chipped).
+  - The coach's limp is only what Youssef can see. "Earned long ago" is cut too.
+  - The kit: one counterfeit Morocco shirt each, an obvious knockoff someone in the medina gave them. Nothing else matches.
+  - The second goal: Raja earn the turnover from Omar. Not a gift. Omar can still be at fault.
+  - The match gets far more room. Time slows in Youssef's eyes: he sees the whole pitch. It only speeds up in Sparrow, after the flag.
+  - The complex is a 2x2 grid of four pitches: three fine training fields and one pristine match pitch beside the fence. Single-sided stands; the coach works the club-side touchline. Ahmed never crosses the fence.
+  - The medina bring exactly eleven: no subs, no coach, no trainer. Raja have eighteen, seven subs, a physio, and the coach.
+  - The red knockoff Morocco tops force Raja into their white away kit.
+  - The chapter ends on a stoppage at 2–2 with about four minutes left: Yazid's calf cramps. Raja's physio comes on first. The gardien comes down from the stands, kneels, and stretches the calf out. The referee asks, "Who are you?" He doesn't answer. Yazid says he can play. The chapter ends before play resumes.
+  - Professor: James Dickey (body, ground, heat, fear, strength), drafting as a cloud agent; liberty granted to go off script.
 - Eyes: Youssef
 - Where: Hay Mohammadi turf; Raja training grounds
 - Tension:
-- Status: on the page; many fixes decided, not yet written
+- Status: on the page; beats under review 2026-10-31, not yet written
 
 ### 6. Sparrow
 

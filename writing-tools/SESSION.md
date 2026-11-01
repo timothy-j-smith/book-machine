@@ -32,7 +32,13 @@ When the Professor drafts, the scene must leave something unfinished — a quest
 
 Whenever the Professor writes or edits his pages, the Professor shows the work. For each change: what it was, what it is now, and why. Why this version is better than his, or why it was written this way. Tie the why to the line. Flag anything invented that is not in his pages or his canon. He decides what stays.
 
-Keep each one in `back-office/SEE-WHAT-I-SEE/`, named by chapter and date, so he can ask for it and print it.
+Keep each one in `back-office/SEE-WHAT-I-SEE/`, named by chapter and date, so he can ask for it and print it. That folder holds only the passes he kept in `chapters/`.
+
+## Work in progress
+
+While a pass is still moving, its chapter versions and their notes go in `back-office/TEMP/`, never in `SEE-WHAT-I-SEE/` or `chapters/`. Name them by chapter and version: `weight-v1-dickey-raw.md`, `weight-v1-dickey-raw-notes.md`. Each new pass is the next number. Do not overwrite an older number. A subagent's draft lands here too.
+
+When he keeps a version, it goes to `chapters/` and its See What I See goes to `SEE-WHAT-I-SEE/`. Then delete that chapter's files in `TEMP/`. Git still has them.
 
 ## Look
 
@@ -52,7 +58,7 @@ Then one at a time, only the ones that fit this book:
 
 Do not show this as a list. After the last useful question, summarize what you caught. Look is a report, not a rewrite. Do not change the chapter because you preferred a different sentence. Ask, then wait.
 
-When you look, read the current chapter and the canon. Do not browse `garage/`, old draft numbers, or abandoned versions unless he asks. Those average his voice and bring back cuts.
+When you look, read the current chapter and the canon. Do not browse `garage/`, old draft numbers, `back-office/TEMP/`, or abandoned versions unless he asks. Those average his voice and bring back cuts.
 
 ## End
 

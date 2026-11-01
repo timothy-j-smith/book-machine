@@ -13,6 +13,7 @@ Read only what the job needs.
 | A full read of the story, or weighing feedback | `READER.md` |
 | A change every new book should start with | `FOR-THE-BLANK-BOOK.md` |
 | Who writes next, and showing why | `SESSION.md` (Who writes, See What I See, Leave the door open) |
+| A chapter version not kept yet | `SESSION.md` (Work in progress), then novel `back-office/TEMP/` |
 | What this person may know in this chapter | Novel `back-office/WHO-KNOWS.md` |
 | Cut line, spare scene, later spark | Novel `VAULT.md` |
 | What is true in the story | Novel `back-office/STORY-STATE.md` |

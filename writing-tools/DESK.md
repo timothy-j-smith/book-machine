@@ -28,7 +28,8 @@ Every Open Me writes the chapter to disk when you leave that page: another chapt
 | `INTERVIEW.md` | Raw capture. Evidence. Not homework. |
 | `SESSION-NOTES/` | What used to be chat summaries. You write them. |
 | `READS/` | Full reads of the story: cold reads, second passes, master's reads. See `READER.md`. Every new book starts with this folder.
-| `SEE-WHAT-I-SEE/` | One file per pass the Professor wrote or edited: what changed, and why. Named by chapter and date. He asks for it and prints it. |
+| `SEE-WHAT-I-SEE/` | One file per kept pass the Professor wrote or edited: what changed, and why. Named by chapter and date. He asks for it and prints it. |
+| `TEMP/` | Work in progress. Chapter versions and notes, numbered `v1`, `v2`, until he keeps one. Then the kept version goes to `chapters/`, its notes go to `SEE-WHAT-I-SEE/`, and that chapter's files here are deleted. See `SESSION.md`. |
 | `MANUSCRIPT.md` | Chapters stitched in order so he can read straight through. Never hand-synced by the author. |
 
 A synopsis is a *view* you regenerate when he needs the whole shape for a pitch or a reread. It is not a third novel.
