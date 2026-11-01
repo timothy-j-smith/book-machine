@@ -5,6 +5,8 @@
 
 Sparrow is rewritten and kept. Line edits wait for the final polish.
 
+If he is on the Mac Studio: first finish its fresh setup at `~/Writing/book-machine` (see the session note for 2026-10-31) and confirm it matches the Air.
+
 Next job: **Weight**. Professor Dickey's version is drafted and revised but not kept. Student T reads `back-office/TEMP/weight-v3-eleven-players.md` (eleven boys from the first night, no brother). Ask what stood out, one question at a time. If he keeps it: it goes to `chapters/ch05-weight.md`, its See What I See goes to `SEE-WHAT-I-SEE/`, and the Weight files in `TEMP/` are deleted. Then check Jellies against "three coastal boys" and add the match clock to CANON.
 
 Weight has to end at 2–2 with four minutes left, so Sparrow's first line still works.
