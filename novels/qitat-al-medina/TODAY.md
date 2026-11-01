@@ -3,6 +3,10 @@
 **Novel:** Qitat al-Medina
 **Form:** A long story, about 12,000–15,000 words. Eight chapters once Hand is written.
 
-The plan is locked. One job: decide who holds the pen for Sparrow. Then rewrite Sparrow only when he says write.
+Sparrow is rewritten and kept. Line edits wait for the final polish.
 
-Start with `back-office/SESSION-HANDOFF-2026-10-28.md`. The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`, and it wins over any older note.
+Next job: **Weight**. Before anyone writes, the Professor puts Weight's beat list in chat (one screen), Student T changes it, and the open details are settled one question at a time. Then ask once who holds the pen.
+
+Weight has to end at 2–2 with four minutes left, so Sparrow's first line still works.
+
+The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`, and it wins over any older note.

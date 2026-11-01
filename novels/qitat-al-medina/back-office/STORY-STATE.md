@@ -18,11 +18,13 @@ The match is on a Friday at the Raja training grounds, beside the public park an
 
 Ahmed was at the match. He watched from the concrete side of the fence. He did not speak to Akesbi.
 
+Sparrow is rewritten and kept (2026-10-31, about 1,370 words). On the page now: Chams-Eddine's wall pass, Youssef clearly onside, one more touch, and the lift held "until the keeper's knees bent." The flag. Youssef goes cold and deaf, ignores Omar's "hold," runs past Chams-Eddine, and lunges late; Luca rolls and gets up not limping. Badr's free kick off Bilal's fingertips, 3–2. After the whistle the coastal stranger says "Qit sihri" once and is lost in the crowd; Hadj Brahim lifts his cane; Badr's "It counted," with "I know" and the smile cut; the Sparrow named. Then Brahim looks back past the fence, and Youssef sees a man in a cement-grey work cap under the last lamp, hands at his sides, who turns toward the road. Youssef looks down at his boots. The chapter ends with Karim in his jellies and Youssef's bare soles "leaving nothing at all." Line edits wait for the final polish.
+
 ## Promised
 
 Youssef will play for Morocco in 2030. That is the dream on the page.
 
-The disallowed goal will be rewritten as a wall pass, clearly onside, then a flag. Youssef will lunge on the restart. Luca makes a meal of it just outside the box. Badr scores the free kick, 3–2.
+Weight must hand Sparrow a 2–2 game with four minutes left, and must not spend the cats Sparrow uses (Hamza's "one step, never two" is now in Sparrow's first paragraph).
 
 Phantom will end at the front doorway: "Come with me," the minaret down the alley, "But we cracked," the downhill confession, the hands. No ball touch. Ahmed will reveal he was at the match by knowing something only a witness could know: "You waited for his knees." (Youssef held the lift until the keeper's knees bent.)
 
@@ -43,13 +45,15 @@ The details are in the second-pass notes, under "Parked for after the pass."
 
 Youssef's change: from loving a legend to holding a man. The lunge is cold, deaf anger, not malice: he chases alone and ignores Omar's "hold." Coming home, he carries the lunge more than the flag. On the Vespa the replay moves forward (his foot corrects into Simo's quarter-turn) where his father's froze. "Downhill, I never learned" recognizes what the boy has begun.
 
-Order of work: the structural pass and the plan are done. Next is the prose rewrite, starting with Sparrow and working backward to Simo, only when Student T says write. The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`.
+Order of work: Sparrow is done. Next is Weight, then Phantom, Hand, Jellies, Vespa, Panenka, Simo, each only when Student T says write. The plan is `back-office/FINAL-PLAN-BEFORE-THE-REWRITE.md`.
 
 ## Open
 
 A better phrase than "Great Hope Watching Over Us" for what people said when they paid into the mosque. Draft when Phantom is rewritten. It may be invented.
 
 ## Last sitting
+
+2026-10-31. The Professor held the pen for Sparrow, with Ondaatje as the lens. Student T kept the chapter; minor line edits wait for the final polish. Sparrow and its See What I See are on GitHub (commit `a1d6886`).
 
 2026-10-27, all day. Night: the structural pass finished (the free kick, the character audit, the cold water, the cement-grey cap, what Youssef knows). Day: the form settled as a long story; Hand placed between Jellies and Weight; the training fortnight, Chapter 1's braid, and Panenka's rebuild planned; Youssef's change, the lunge, and the aftermath locked; the rewrite plan written. Paperwork patched to match the plan. No chapter was rewritten.
 

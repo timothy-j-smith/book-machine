@@ -65,3 +65,4 @@ No checklist for the author.
 - Let a character know a fact they have not earned. See `WHO-KNOWS.md`.
 - Close every question in a scene the Professor drafts. Leave the door open.
 - Treat a study passage as his prose. See `STUDY.md`. Passages from books he owns are private education, labeled study, and allowed in the repo. Do not scold. Teach the move in his own sentences. Do not file those sentences into `chapters/`.
+- Redesign the desk, the method, or the blank book while he is stress-testing. One or two novels in active drafting come first (decided 2026-10-31, from Qitat al-Medina). A change waits until he asks for it after that mileage.

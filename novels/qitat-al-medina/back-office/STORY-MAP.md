@@ -86,11 +86,11 @@ Then a straight read-through of the whole book, a continuity check, and a polish
 ### 6. Sparrow
 
 - File: ch06-sparrow.md
-- Does: Wall pass with Chams-Eddine, return clearly onside, one more move, the goal. Defenders appeal. The flag goes up anyway. Youssef goes cold and deaf, chases alone, ignores Omar's "hold," passes Chams-Eddine, and lunges late (anger, not malice). Luca draws it just outside the box and rolls on the turf. The one fair call of the night. Badr's free kick, calm and clinical, off Bilal's fingertips, makes it 3–2. The whistle soon after. Youssef barefoot on the turf; from the bleachers the coastal stranger says "Qit sihri" once, nobody joins, and the face is lost in the crowd (a beat apart from Hadj Brahim's cane). Hadj Brahim arrives late and glances toward the fence. Youssef glimpses a man in a work cap, grey with cement dust (the Grand Stade), on the concrete side and does not look twice. Badr: "It counted." Akesbi is The Sparrow.
+- Does: Wall pass with Chams-Eddine, return clearly onside, one more move, and the lift held until the keeper's knees bend (the plant for Phantom's "You waited for his knees"). Defenders appeal. The flag goes up anyway. Youssef goes cold and deaf, chases alone, ignores Omar's "hold," passes Chams-Eddine, and lunges late (anger, not malice). Luca draws it just outside the box and rolls on the turf. The one fair call of the night. Badr's free kick, calm and clinical, off Bilal's fingertips, makes it 3–2. The whistle soon after. Youssef barefoot on the turf; from the bleachers the coastal stranger says "Qit sihri" once, nobody joins, and the face is lost in the crowd (a beat apart from Hadj Brahim's cane). Badr: "It counted"; "I know" and the smile cut; Akesbi is The Sparrow; "He knows you now." Then Hadj Brahim glances back past the fence, and Youssef sees a man in a work cap, grey with cement dust (the Grand Stade), on the concrete side and does not look twice. Karim trades his cleats for jellies.
 - Eyes: Youssef
 - Where: Raja training grounds, the fence, the public park beyond
 - Tension:
-- Status: on the page; climax rewrite decided, not yet written
+- Status: rewritten and kept, 2026-10-31 (about 1,370 words). Line edits wait for the final polish.
 
 ### 7. Phantom
 
